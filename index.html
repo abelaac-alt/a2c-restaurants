@@ -1,94 +1,60 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#111827" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <title>MesaFácil · Carta digital</title>
-  <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="app-shell">
-    <header class="topbar">
-      <div>
-        <span class="eyebrow">MESA 12</span>
-        <h1>La Toscana</h1>
+<body class="customer-body">
+  <div class="mobile-app">
+    <header class="mobile-header">
+      <div class="restaurant-brand">
+        <div class="restaurant-logo">LT</div>
+        <div><small id="tableLabel">MESA 1</small><h1>La Toscana</h1></div>
       </div>
-      <button id="cartButton" class="icon-button" aria-label="Abrir carrito">
-        🛒 <span id="cartCount">0</span>
-      </button>
+      <button id="cartButton" class="round-action" aria-label="Abrir pedido">🛒<span id="cartCount">0</span></button>
     </header>
 
-    <main>
-      <section class="hero-card">
-        <div>
-          <span class="status-dot"></span> Cocina abierta · 15–20 min
-          <h2>¿Qué te apetece hoy?</h2>
-          <p>Explora la carta, filtra por preferencias y pide desde la mesa.</p>
-        </div>
-        <button id="callWaiter" class="secondary-button">🔔 Llamar al camarero</button>
-      </section>
-
-      <section class="search-row">
-        <label class="search-box">
-          <span>🔎</span>
-          <input id="searchInput" type="search" placeholder="Buscar platos o ingredientes" />
-        </label>
-        <button id="allergenButton" class="filter-button">⚙️ Filtros</button>
-      </section>
-
-      <nav id="categoryTabs" class="category-tabs" aria-label="Categorías"></nav>
-
-      <section class="section-heading">
-        <div>
-          <span class="eyebrow">RECOMENDADOS</span>
-          <h2>Los favoritos de hoy</h2>
+    <main class="customer-main">
+      <section class="welcome-card">
+        <div class="service-status"><span></span>Cocina abierta · 15–20 min</div>
+        <h2>¿Qué te apetece hoy?</h2>
+        <p>Pide desde tu mesa sin esperar.</p>
+        <div class="quick-actions">
+          <button id="callWaiter">🔔 Camarero</button>
+          <button id="requestBill">🧾 Pedir cuenta</button>
         </div>
       </section>
 
+      <label class="mobile-search"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar platos o ingredientes"></label>
+      <nav id="categoryTabs" class="category-tabs"></nav>
+
+      <div class="content-title"><div><small>RECOMENDADOS</small><h2>La carta</h2></div><button id="allergenButton">Filtros</button></div>
       <section id="menuGrid" class="menu-grid"></section>
     </main>
 
-    <button id="floatingCart" class="floating-cart hidden">
-      <span><strong id="floatingCount">0 productos</strong><small>Ver pedido</small></span>
-      <strong id="floatingTotal">0,00 €</strong>
-    </button>
+    <nav class="bottom-nav">
+      <button class="active">⌂<span>Carta</span></button>
+      <button id="bottomWaiter">♢<span>Camarero</span></button>
+      <button id="bottomCart">▣<span>Pedido</span><b id="bottomCount">0</b></button>
+    </nav>
+
+    <button id="floatingCart" class="floating-cart hidden"><span><b id="floatingCount">0 productos</b><small>Revisar pedido</small></span><strong id="floatingTotal">0,00 €</strong></button>
   </div>
 
   <div id="overlay" class="overlay hidden"></div>
-
-  <aside id="productModal" class="modal-sheet hidden" aria-hidden="true">
-    <button class="modal-close" data-close>×</button>
-    <div id="productModalContent"></div>
-  </aside>
-
-  <aside id="cartDrawer" class="drawer hidden" aria-hidden="true">
-    <div class="drawer-header">
-      <div><span class="eyebrow">TU PEDIDO</span><h2>Mesa 12</h2></div>
-      <button class="modal-close" data-close>×</button>
-    </div>
+  <aside id="productModal" class="bottom-sheet hidden"><button class="sheet-close" data-close>×</button><div id="productModalContent"></div></aside>
+  <aside id="cartDrawer" class="bottom-sheet cart-sheet hidden">
+    <div class="sheet-heading"><div><small>TU PEDIDO</small><h2 id="cartTableTitle">Mesa 1</h2></div><button class="sheet-close" data-close>×</button></div>
     <div id="cartItems" class="cart-items"></div>
-    <div class="cart-summary">
-      <div><span>Subtotal</span><strong id="cartSubtotal">0,00 €</strong></div>
-      <div><span>Servicio</span><strong>0,00 €</strong></div>
-      <div class="total-row"><span>Total</span><strong id="cartTotal">0,00 €</strong></div>
-      <button id="placeOrder" class="primary-button">Enviar pedido a cocina</button>
-    </div>
+    <div class="cart-summary"><div><span>Subtotal</span><strong id="cartSubtotal">0,00 €</strong></div><div class="total-row"><span>Total</span><strong id="cartTotal">0,00 €</strong></div><button id="placeOrder" class="primary-button">Enviar pedido a cocina</button></div>
   </aside>
-
-  <aside id="filtersModal" class="modal-sheet compact hidden" aria-hidden="true">
-    <button class="modal-close" data-close>×</button>
-    <span class="eyebrow">PREFERENCIAS</span>
-    <h2>Personaliza tu carta</h2>
-    <div class="filter-list">
-      <label><input type="checkbox" value="vegetariano" class="diet-filter" /> Vegetariano</label>
-      <label><input type="checkbox" value="sin-gluten" class="diet-filter" /> Sin gluten</label>
-      <label><input type="checkbox" value="picante" class="diet-filter" /> Picante</label>
-    </div>
-    <button id="applyFilters" class="primary-button">Aplicar filtros</button>
-  </aside>
-
+  <aside id="filtersModal" class="bottom-sheet compact hidden"><button class="sheet-close" data-close>×</button><small>PREFERENCIAS</small><h2>Filtrar carta</h2><div class="filter-list"><label><input type="checkbox" value="vegetariano" class="diet-filter"> Vegetariano</label><label><input type="checkbox" value="sin-gluten" class="diet-filter"> Sin gluten</label><label><input type="checkbox" value="picante" class="diet-filter"> Picante</label></div><button id="applyFilters" class="primary-button">Aplicar filtros</button></aside>
+  <div id="successModal" class="success-modal hidden"><div>✓</div><h2>Pedido enviado</h2><p id="successText">La cocina ya está preparando tu pedido.</p><button id="closeSuccess" class="primary-button">Seguir viendo la carta</button></div>
   <div id="toast" class="toast hidden"></div>
   <script src="app.js"></script>
 </body>

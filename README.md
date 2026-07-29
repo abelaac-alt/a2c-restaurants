@@ -1,25 +1,16 @@
 # MesaFácil MVP
 
-MVP de carta digital para restaurantes preparado para GitHub Pages.
+MVP móvil de carta digital para restaurantes con backoffice y asociación automática de pedidos por mesa.
 
-## Incluye
+## Archivos principales
 
-- Carta responsive para clientes.
-- Categorías, búsqueda y filtros alimentarios.
-- Ficha de producto y venta adicional.
-- Carrito y envío de pedidos por mesa.
-- Panel del restaurante.
-- Cambio del estado de los pedidos.
-- Edición rápida de precios y disponibilidad.
-- Estadísticas básicas.
-- Persistencia local mediante localStorage.
-- PWA básica.
+- `index.html?mesa=1`: carta móvil asociada a la mesa 1.
+- `admin.html`: backoffice del restaurante.
+- `qr-mesa-1.png`: QR de prueba.
 
-## Uso local
+## Prueba local
 
-Abre `index.html` para la carta del cliente y `admin.html` para el panel del restaurante.
-
-Para evitar limitaciones del navegador, se recomienda ejecutar un servidor local:
+Para que carta y backoffice compartan pedidos, sirve la carpeta con un servidor local:
 
 ```bash
 python -m http.server 8000
@@ -27,17 +18,17 @@ python -m http.server 8000
 
 Después abre:
 
-- `http://localhost:8000/index.html`
-- `http://localhost:8000/admin.html`
+- Carta: `http://localhost:8000/index.html?mesa=1`
+- Backoffice: `http://localhost:8000/admin.html`
 
-## Publicar en GitHub Pages
+## GitHub Pages
 
-1. Crea un repositorio nuevo.
-2. Sube todos los archivos de esta carpeta.
-3. En GitHub, entra en **Settings → Pages**.
-4. Selecciona la rama principal y la carpeta raíz.
-5. Guarda y abre la URL generada por GitHub Pages.
+1. Sube todos los archivos a un repositorio.
+2. Activa GitHub Pages desde `Settings > Pages`.
+3. La URL de cada mesa debe terminar en `?mesa=N`.
+4. Ejemplo: `https://usuario.github.io/repositorio/index.html?mesa=1`.
+5. Genera el QR definitivo con esa URL pública. El QR incluido usa una URL demostrativa y debe sustituirse cuando conozcas la dirección final del repositorio.
 
-## Importante
+## Limitación del MVP
 
-Este MVP utiliza almacenamiento local del navegador. Para una versión comercial habría que añadir base de datos, usuarios, autenticación, pagos e integración con TPV.
+Los datos se guardan en `localStorage`. Funciona para demostración en un mismo navegador. Para uso real se necesita una base de datos y autenticación para sincronizar pedidos entre los móviles de clientes y el backoffice.
