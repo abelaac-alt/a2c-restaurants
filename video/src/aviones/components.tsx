@@ -49,8 +49,9 @@ export const SceneTitle: React.FC<{ n: number; children: React.ReactNode }> = ({
     <div
       style={{
         position: "absolute",
-        top: 56,
-        left: 80,
+        top: 250,
+        left: 70,
+        right: 150,
         display: "flex",
         alignItems: "center",
         gap: 22,
@@ -60,9 +61,10 @@ export const SceneTitle: React.FC<{ n: number; children: React.ReactNode }> = ({
     >
       <div
         style={{
-          width: 58,
-          height: 58,
-          borderRadius: 29,
+            width: 62,
+          height: 62,
+          flexShrink: 0,
+          borderRadius: 31,
           border: `3px solid ${C.lift}`,
           color: C.lift,
           fontSize: 30,
@@ -74,7 +76,7 @@ export const SceneTitle: React.FC<{ n: number; children: React.ReactNode }> = ({
       >
         {n}
       </div>
-      <div style={{ color: C.text, fontSize: 46, fontWeight: 700, letterSpacing: -0.5 }}>{children}</div>
+      <div style={{ color: C.text, fontSize: 50, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1.1 }}>{children}</div>
     </div>
   );
 };
@@ -93,9 +95,9 @@ export const Captions: React.FC<{ lines: { at: number; text: React.ReactNode }[]
     <div
       style={{
         position: "absolute",
-        bottom: 64,
-        left: 0,
-        right: 0,
+        bottom: 430,
+        left: 60,
+        right: 140,
         display: "flex",
         justifyContent: "center",
         opacity: a,
@@ -104,14 +106,13 @@ export const Captions: React.FC<{ lines: { at: number; text: React.ReactNode }[]
     >
       <div
         style={{
-          maxWidth: 1500,
           textAlign: "center",
           color: C.text,
-          fontSize: 44,
-          fontWeight: 500,
+          fontSize: 50,
+          fontWeight: 600,
           lineHeight: 1.3,
           background: "rgba(4, 14, 30, 0.62)",
-          padding: "18px 40px",
+          padding: "20px 30px",
           borderRadius: 18,
         }}
       >
@@ -198,17 +199,18 @@ export const Plane: React.FC<{ x: number; y: number; scale?: number; rotate?: nu
 export const Clouds: React.FC<{ speed?: number; opacity?: number }> = ({ speed = 2, opacity = 0.12 }) => {
   const f = useCurrentFrame();
   const clouds = [
-    { x: 200, y: 180, s: 1.2 },
-    { x: 900, y: 120, s: 0.8 },
-    { x: 1500, y: 260, s: 1.0 },
-    { x: 600, y: 820, s: 1.4 },
-    { x: 1300, y: 900, s: 0.9 },
-    { x: 1900, y: 700, s: 1.1 },
+    { x: 200, y: 420, s: 1.2 },
+    { x: 900, y: 330, s: 0.8 },
+    { x: 1500, y: 640, s: 1.0 },
+    { x: 600, y: 1350, s: 1.4 },
+    { x: 1300, y: 1560, s: 0.9 },
+    { x: 1900, y: 1100, s: 1.1 },
+    { x: 400, y: 900, s: 0.7 },
   ];
   return (
-    <svg width={1920} height={1080} style={{ position: "absolute" }}>
+    <svg width={1080} height={1920} style={{ position: "absolute" }}>
       {clouds.map((c, i) => {
-        const x = ((((c.x - f * speed * c.s) % 2300) + 2300) % 2300) - 200;
+        const x = ((((c.x - f * speed * c.s) % 1500) + 1500) % 1500) - 200;
         return (
           <g key={i} transform={`translate(${x} ${c.y}) scale(${c.s})`} opacity={opacity}>
             <ellipse cx={0} cy={0} rx={110} ry={34} fill="#fff" />
@@ -222,7 +224,7 @@ export const Clouds: React.FC<{ speed?: number; opacity?: number }> = ({ speed =
 };
 
 // ---------- Vista del perfil alar ----------
-export const WING = { x0: 640, cy: 470, S: 680 };
+export const WING = { x0: 250, cy: 930, S: 560 };
 export const toSvg = (x: number, y: number): [number, number] => [WING.x0 + x * WING.S, WING.cy - y * WING.S];
 
 const pathFrom = (pts: [number, number][]) =>

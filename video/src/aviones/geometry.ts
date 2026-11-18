@@ -109,5 +109,5 @@ export const pointAtTime = (s: Streamline, t: number): [number, number] | null =
   return [s.pts[lo][0] + a * (s.pts[hi][0] - s.pts[lo][0]), s.pts[lo][1] + a * (s.pts[hi][1] - s.pts[lo][1])];
 };
 
-export const STREAM_Y0 = [-0.62, -0.42, -0.26, -0.14, -0.06, 0.06, 0.14, 0.26, 0.42, 0.62];
+export const STREAM_Y0 = [-0.86, -0.62, -0.42, -0.26, -0.14, -0.06, 0.06, 0.14, 0.26, 0.42, 0.62, 0.86];
 export const STREAMLINES = STREAM_Y0.map(makeStreamline);

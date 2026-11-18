@@ -1,0 +1,205 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 134,
+   "cues": [
+    {
+     "id": "s1_0",
+     "at": 15,
+     "dur": 89,
+     "text": "¿Cómo puede volar un avión que pesa cientos de toneladas?"
+    }
+   ]
+  },
+  {
+   "start": 134,
+   "dur": 365,
+   "cues": [
+    {
+     "id": "s2_0",
+     "at": 12,
+     "dur": 77,
+     "text": "Sobre un avión en vuelo actúan cuatro fuerzas."
+    },
+    {
+     "id": "s2_1",
+     "at": 97,
+     "dur": 110,
+     "text": "Los motores dan el empuje, y el aire lo frena con su resistencia."
+    },
+    {
+     "id": "s2_2",
+     "at": 215,
+     "dur": 132,
+     "text": "Para no caer, algo tiene que compensar el peso: la sustentación, que nace en las alas."
+    }
+   ]
+  },
+  {
+   "start": 499,
+   "dur": 460,
+   "cues": [
+    {
+     "id": "s3_0",
+     "at": 12,
+     "dur": 118,
+     "text": "Si cortamos un ala y la miramos de lado, vemos un perfil aerodinámico."
+    },
+    {
+     "id": "s3_1",
+     "at": 138,
+     "dur": 114,
+     "text": "Está algo curvada e inclinada contra el aire: es el ángulo de ataque."
+    },
+    {
+     "id": "s3_2",
+     "at": 274,
+     "dur": 94,
+     "text": "Al avanzar, el ala obliga al aire a curvarse a su alrededor..."
+    },
+    {
+     "id": "s3_3",
+     "at": 372,
+     "dur": 66,
+     "text": "...y lo deja salir inclinado hacia abajo."
+    }
+   ]
+  },
+  {
+   "start": 959,
+   "dur": 398,
+   "cues": [
+    {
+     "id": "s4_0",
+     "at": 12,
+     "dur": 95,
+     "text": "Por encima del ala, el aire se acelera y su presión baja."
+    },
+    {
+     "id": "s4_1",
+     "at": 117,
+     "dur": 76,
+     "text": "Por debajo, se frena un poco y la presión sube."
+    },
+    {
+     "id": "s4_2",
+     "at": 203,
+     "dur": 74,
+     "text": "El aire de abajo empuja más que el de arriba..."
+    },
+    {
+     "id": "s4_3",
+     "at": 280,
+     "dur": 94,
+     "text": "...y el resultado es una fuerza hacia arriba: la sustentación."
+    }
+   ]
+  },
+  {
+   "start": 1357,
+   "dur": 376,
+   "cues": [
+    {
+     "id": "s5_0",
+     "at": 12,
+     "dur": 87,
+     "text": "Fíjate en el aire que sale por detrás: va hacia abajo."
+    },
+    {
+     "id": "s5_1",
+     "at": 109,
+     "dur": 111,
+     "text": "Si el ala empuja el aire hacia abajo, el aire empuja el ala hacia arriba."
+    },
+    {
+     "id": "s5_2",
+     "at": 230,
+     "dur": 126,
+     "text": "Es la tercera ley de Newton. Presión y Newton son dos formas de contar lo mismo."
+    }
+   ]
+  },
+  {
+   "start": 1733,
+   "dur": 495,
+   "cues": [
+    {
+     "id": "s6_0",
+     "at": 12,
+     "dur": 130,
+     "text": "Quizá te contaron que el aire de arriba corre más para reencontrarse con el de abajo."
+    },
+    {
+     "id": "s6_1",
+     "at": 150,
+     "dur": 60,
+     "text": "Soltemos dos partículas a la vez."
+    },
+    {
+     "id": "s6_2",
+     "at": 270,
+     "dur": 114,
+     "text": "La de arriba llega mucho antes. Nadie obliga al aire a reencontrarse."
+    },
+    {
+     "id": "s6_3",
+     "at": 392,
+     "dur": 83,
+     "text": "Lo que manda es la forma y la inclinación del ala."
+    }
+   ]
+  },
+  {
+   "start": 2228,
+   "dur": 385,
+   "cues": [
+    {
+     "id": "s7_0",
+     "at": 12,
+     "dur": 158,
+     "text": "La sustentación crece con el cuadrado de la velocidad: el doble de rápido, cuatro veces más fuerza."
+    },
+    {
+     "id": "s7_1",
+     "at": 178,
+     "dur": 66,
+     "text": "Por eso el avión acelera por la pista..."
+    },
+    {
+     "id": "s7_2",
+     "at": 246,
+     "dur": 79,
+     "text": "...hasta que la sustentación supera al peso. ¡Y despega!"
+    }
+   ],
+   "liftoff": 289
+  },
+  {
+   "start": 2613,
+   "dur": 360,
+   "cues": [
+    {
+     "id": "s8_0",
+     "at": 12,
+     "dur": 126,
+     "text": "En resumen: el ala desvía el aire hacia abajo y crea una diferencia de presión."
+    },
+    {
+     "id": "s8_1",
+     "at": 148,
+     "dur": 89,
+     "text": "Con suficiente velocidad, esa fuerza vence al peso."
+    },
+    {
+     "id": "s8_2",
+     "at": 251,
+     "dur": 44,
+     "text": "Así vuelan los aviones."
+    }
+   ]
+  }
+ ],
+ "total": 2973
+}
