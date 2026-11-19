@@ -277,3 +277,68 @@ def pitch(x, semis):
     import soxr
     r = 2 ** (semis / 12)
     return soxr.resample(x, SR, int(SR / r))
+
+
+# ---------- sonido realista para historias ----------
+def vibrate(n=3):
+    """vibración del móvil sobre una mesa: ráfagas de 160 Hz con golpeteo"""
+    out = []
+    for _ in range(n):
+        x = tt(0.28)
+        s = np.sin(2 * np.pi * 165 * x) * (0.6 + 0.4 * np.sign(np.sin(2 * np.pi * 38 * x)))
+        s += 0.4 * lp(rng.standard_normal(len(x)), 900)
+        out.append(np.tanh(1.5 * s) * np.minimum(1, x / 0.01) * np.minimum(1, (0.28 - x) / 0.03).clip(0, 1))
+        out.append(np.zeros(int(0.09 * SR)))
+    return np.concatenate(out)
+
+
+def ping(m=88):
+    """aviso de mensaje: dos notas rápidas"""
+    out = np.zeros(int(0.6 * SR))
+    for i, mm in enumerate((m, m + 5)):
+        x = tt(0.35)
+        s = np.sin(2 * np.pi * hz(mm) * x) * np.exp(-x / 0.09)
+        j = int(i * 0.11 * SR)
+        out[j : j + len(s)] += s
+    return out * 0.7
+
+
+def breath(d=0.45):
+    x = tt(d)
+    n = bp(rng.standard_normal(len(x)), 600, 3800)
+    env = np.sin(np.pi * np.clip(x / d, 0, 1)) ** 2
+    return n * env
+
+
+def room_tone(d, level=1.0):
+    """habitación de noche: grave de nevera + aire suave"""
+    x = tt(d)
+    hum = 0.5 * np.sin(2 * np.pi * 50 * x) + 0.25 * np.sin(2 * np.pi * 100 * x)
+    air = lp(rng.standard_normal(len(x)), 500) * 0.6
+    return (hum + air) * level
+
+
+def water_tap(d):
+    x = tt(d)
+    n = bp(rng.standard_normal(len(x)), 1500, 7000, o=3)
+    n *= 0.7 + 0.3 * lp(rng.standard_normal(len(x)), 12)
+    return n * np.minimum(1, x / 0.25) * np.minimum(1, (d - x) / 0.35).clip(0, 1)
+
+
+def busy_beeps(n=3):
+    out = []
+    for _ in range(n):
+        x = tt(0.18)
+        out.append(np.sin(2 * np.pi * 425 * x) * np.minimum(1, x / 0.01) * np.minimum(1, (0.18 - x) / 0.01).clip(0, 1))
+        out.append(np.zeros(int(0.18 * SR)))
+    return np.concatenate(out)
+
+
+def click_soft():
+    x = tt(0.04)
+    return hp(rng.standard_normal(len(x)), 1200) * np.exp(-x / 0.008)
+
+
+def mute_thunk():
+    x = tt(0.18)
+    return (np.sin(2 * np.pi * 90 * x) * np.exp(-x / 0.05) + 0.3 * hp(rng.standard_normal(len(x)), 2000) * np.exp(-x / 0.01)) * 0.9

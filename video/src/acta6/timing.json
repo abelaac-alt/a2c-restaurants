@@ -1,0 +1,1090 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "name": "hook",
+   "start": 0,
+   "dur": 194,
+   "cues": [
+    {
+     "id": "n1",
+     "who": "narr",
+     "at": 15,
+     "dur": 161,
+     "text": "Catorce llamadas perdidas de mi jefe. Son las doce menos trece de la noche.",
+     "words": [
+      {
+       "w": "Catorce",
+       "at": 15
+      },
+      {
+       "w": "llamadas",
+       "at": 28
+      },
+      {
+       "w": "perdidas",
+       "at": 43
+      },
+      {
+       "w": "de",
+       "at": 59
+      },
+      {
+       "w": "mi",
+       "at": 62
+      },
+      {
+       "w": "jefe.",
+       "at": 65
+      },
+      {
+       "w": "Son",
+       "at": 108
+      },
+      {
+       "w": "las",
+       "at": 118
+      },
+      {
+       "w": "doce",
+       "at": 124
+      },
+      {
+       "w": "menos",
+       "at": 133
+      },
+      {
+       "w": "trece",
+       "at": 143
+      },
+      {
+       "w": "de",
+       "at": 153
+      },
+      {
+       "w": "la",
+       "at": 156
+      },
+      {
+       "w": "noche.",
+       "at": 159
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "context",
+   "start": 194,
+   "dur": 245,
+   "cues": [
+    {
+     "id": "n2",
+     "who": "narr",
+     "at": 9,
+     "dur": 215,
+     "text": "Llevo meses sin un fin de semana libre. Y si no contesto, al día siguiente me hace sentir que le he fallado.",
+     "words": [
+      {
+       "w": "Llevo",
+       "at": 9
+      },
+      {
+       "w": "meses",
+       "at": 18
+      },
+      {
+       "w": "sin",
+       "at": 29
+      },
+      {
+       "w": "un",
+       "at": 35
+      },
+      {
+       "w": "fin",
+       "at": 39
+      },
+      {
+       "w": "de",
+       "at": 47
+      },
+      {
+       "w": "semana",
+       "at": 51
+      },
+      {
+       "w": "libre.",
+       "at": 63
+      },
+      {
+       "w": "Y",
+       "at": 105
+      },
+      {
+       "w": "si",
+       "at": 110
+      },
+      {
+       "w": "no",
+       "at": 115
+      },
+      {
+       "w": "contesto,",
+       "at": 119
+      },
+      {
+       "w": "al",
+       "at": 142
+      },
+      {
+       "w": "día",
+       "at": 148
+      },
+      {
+       "w": "siguiente",
+       "at": 155
+      },
+      {
+       "w": "me",
+       "at": 169
+      },
+      {
+       "w": "hace",
+       "at": 173
+      },
+      {
+       "w": "sentir",
+       "at": 179
+      },
+      {
+       "w": "que",
+       "at": 194
+      },
+      {
+       "w": "le",
+       "at": 197
+      },
+      {
+       "w": "he",
+       "at": 202
+      },
+      {
+       "w": "fallado.",
+       "at": 205
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "call",
+   "start": 439,
+   "dur": 775,
+   "cues": [
+    {
+     "id": "b1",
+     "who": "boss",
+     "at": 39,
+     "dur": 175,
+     "text": "Lucía. ¿Por qué no coges el teléfono? Necesito el informe para mañana a las ocho.",
+     "words": [
+      {
+       "w": "Lucía.",
+       "at": 39
+      },
+      {
+       "w": "¿Por",
+       "at": 78
+      },
+      {
+       "w": "qué",
+       "at": 85
+      },
+      {
+       "w": "no",
+       "at": 88
+      },
+      {
+       "w": "coges",
+       "at": 92
+      },
+      {
+       "w": "el",
+       "at": 102
+      },
+      {
+       "w": "teléfono?",
+       "at": 105
+      },
+      {
+       "w": "Necesito",
+       "at": 146
+      },
+      {
+       "w": "el",
+       "at": 164
+      },
+      {
+       "w": "informe",
+       "at": 165
+      },
+      {
+       "w": "para",
+       "at": 178
+      },
+      {
+       "w": "mañana",
+       "at": 183
+      },
+      {
+       "w": "a",
+       "at": 194
+      },
+      {
+       "w": "las",
+       "at": 195
+      },
+      {
+       "w": "ocho.",
+       "at": 200
+      }
+     ]
+    },
+    {
+     "id": "l1",
+     "who": "lucia",
+     "at": 229,
+     "dur": 154,
+     "text": "Andrés, son las doce de la noche... Ya te lo entregué hoy a las seis.",
+     "words": [
+      {
+       "w": "Andrés,",
+       "at": 229
+      },
+      {
+       "w": "son",
+       "at": 250
+      },
+      {
+       "w": "las",
+       "at": 257
+      },
+      {
+       "w": "doce",
+       "at": 263
+      },
+      {
+       "w": "de",
+       "at": 272
+      },
+      {
+       "w": "la",
+       "at": 275
+      },
+      {
+       "w": "noche...",
+       "at": 279
+      },
+      {
+       "w": "Ya",
+       "at": 323
+      },
+      {
+       "w": "te",
+       "at": 332
+      },
+      {
+       "w": "lo",
+       "at": 335
+      },
+      {
+       "w": "entregué",
+       "at": 339
+      },
+      {
+       "w": "hoy",
+       "at": 353
+      },
+      {
+       "w": "a",
+       "at": 359
+      },
+      {
+       "w": "las",
+       "at": 361
+      },
+      {
+       "w": "seis.",
+       "at": 366
+      }
+     ]
+    },
+    {
+     "id": "b2",
+     "who": "boss",
+     "at": 405,
+     "dur": 198,
+     "text": "Pues lo haces otra vez. Y si te vuelve a parecer un problema, hay mucha gente en el paro que querría tu puesto.",
+     "words": [
+      {
+       "w": "Pues",
+       "at": 405
+      },
+      {
+       "w": "lo",
+       "at": 410
+      },
+      {
+       "w": "haces",
+       "at": 414
+      },
+      {
+       "w": "otra",
+       "at": 423
+      },
+      {
+       "w": "vez.",
+       "at": 430
+      },
+      {
+       "w": "Y",
+       "at": 469
+      },
+      {
+       "w": "si",
+       "at": 475
+      },
+      {
+       "w": "te",
+       "at": 479
+      },
+      {
+       "w": "vuelve",
+       "at": 482
+      },
+      {
+       "w": "a",
+       "at": 491
+      },
+      {
+       "w": "parecer",
+       "at": 492
+      },
+      {
+       "w": "un",
+       "at": 505
+      },
+      {
+       "w": "problema,",
+       "at": 508
+      },
+      {
+       "w": "hay",
+       "at": 531
+      },
+      {
+       "w": "mucha",
+       "at": 535
+      },
+      {
+       "w": "gente",
+       "at": 544
+      },
+      {
+       "w": "en",
+       "at": 553
+      },
+      {
+       "w": "el",
+       "at": 556
+      },
+      {
+       "w": "paro",
+       "at": 560
+      },
+      {
+       "w": "que",
+       "at": 567
+      },
+      {
+       "w": "querría",
+       "at": 571
+      },
+      {
+       "w": "tu",
+       "at": 582
+      },
+      {
+       "w": "puesto.",
+       "at": 585
+      }
+     ]
+    },
+    {
+     "id": "l2",
+     "who": "lucia",
+     "at": 650,
+     "dur": 68,
+     "text": "Vale. Lo hago.",
+     "words": [
+      {
+       "w": "Vale.",
+       "at": 650
+      },
+      {
+       "w": "Lo",
+       "at": 695
+      },
+      {
+       "w": "hago.",
+       "at": 705
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "after",
+   "start": 1214,
+   "dur": 286,
+   "cues": [
+    {
+     "id": "n3",
+     "who": "narr",
+     "at": 27,
+     "dur": 229,
+     "text": "Colgó. Me fui al baño a llorar, para que Marcos no me oyera. Pensé que el problema era yo.",
+     "words": [
+      {
+       "w": "Colgó.",
+       "at": 27
+      },
+      {
+       "w": "Me",
+       "at": 71
+      },
+      {
+       "w": "fui",
+       "at": 80
+      },
+      {
+       "w": "al",
+       "at": 88
+      },
+      {
+       "w": "baño",
+       "at": 91
+      },
+      {
+       "w": "a",
+       "at": 102
+      },
+      {
+       "w": "llorar,",
+       "at": 104
+      },
+      {
+       "w": "para",
+       "at": 122
+      },
+      {
+       "w": "que",
+       "at": 129
+      },
+      {
+       "w": "Marcos",
+       "at": 133
+      },
+      {
+       "w": "no",
+       "at": 147
+      },
+      {
+       "w": "me",
+       "at": 151
+      },
+      {
+       "w": "oyera.",
+       "at": 155
+      },
+      {
+       "w": "Pensé",
+       "at": 200
+      },
+      {
+       "w": "que",
+       "at": 215
+      },
+      {
+       "w": "el",
+       "at": 218
+      },
+      {
+       "w": "problema",
+       "at": 222
+      },
+      {
+       "w": "era",
+       "at": 238
+      },
+      {
+       "w": "yo.",
+       "at": 244
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "sister",
+   "start": 1501,
+   "dur": 266,
+   "cues": [
+    {
+     "id": "s1",
+     "who": "ana",
+     "at": 15,
+     "dur": 230,
+     "text": "Eso no es normal, Lucía. Tienes derecho a desconectar. Pero sin pruebas, es tu palabra contra la suya.",
+     "words": [
+      {
+       "w": "Eso",
+       "at": 15
+      },
+      {
+       "w": "no",
+       "at": 22
+      },
+      {
+       "w": "es",
+       "at": 27
+      },
+      {
+       "w": "normal,",
+       "at": 30
+      },
+      {
+       "w": "Lucía.",
+       "at": 48
+      },
+      {
+       "w": "Tienes",
+       "at": 91
+      },
+      {
+       "w": "derecho",
+       "at": 101
+      },
+      {
+       "w": "a",
+       "at": 114
+      },
+      {
+       "w": "desconectar.",
+       "at": 116
+      },
+      {
+       "w": "Pero",
+       "at": 166
+      },
+      {
+       "w": "sin",
+       "at": 172
+      },
+      {
+       "w": "pruebas,",
+       "at": 178
+      },
+      {
+       "w": "es",
+       "at": 194
+      },
+      {
+       "w": "tu",
+       "at": 199
+      },
+      {
+       "w": "palabra",
+       "at": 203
+      },
+      {
+       "w": "contra",
+       "at": 215
+      },
+      {
+       "w": "la",
+       "at": 225
+      },
+      {
+       "w": "suya.",
+       "at": 229
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "turn",
+   "start": 1767,
+   "dur": 164,
+   "cues": [
+    {
+     "id": "n4",
+     "who": "narr",
+     "at": 9,
+     "dur": 143,
+     "text": "Y entonces me acordé: desde hacía tres semanas, tenía Acta grabando mis llamadas.",
+     "words": [
+      {
+       "w": "Y",
+       "at": 9
+      },
+      {
+       "w": "entonces",
+       "at": 12
+      },
+      {
+       "w": "me",
+       "at": 27
+      },
+      {
+       "w": "acordé:",
+       "at": 30
+      },
+      {
+       "w": "desde",
+       "at": 47
+      },
+      {
+       "w": "hacía",
+       "at": 55
+      },
+      {
+       "w": "tres",
+       "at": 65
+      },
+      {
+       "w": "semanas,",
+       "at": 72
+      },
+      {
+       "w": "tenía",
+       "at": 95
+      },
+      {
+       "w": "Acta",
+       "at": 105
+      },
+      {
+       "w": "grabando",
+       "at": 112
+      },
+      {
+       "w": "mis",
+       "at": 127
+      },
+      {
+       "w": "llamadas.",
+       "at": 132
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "search",
+   "start": 1930,
+   "dur": 289,
+   "cues": [
+    {
+     "id": "n5",
+     "who": "narr",
+     "at": 8,
+     "dur": 261,
+     "text": "Busqué «paro», y salieron nueve llamadas. Fechas, horas, y sus propias palabras. Ya no era mi palabra contra la suya.",
+     "words": [
+      {
+       "w": "Busqué",
+       "at": 8
+      },
+      {
+       "w": "«paro»,",
+       "at": 24
+      },
+      {
+       "w": "y",
+       "at": 38
+      },
+      {
+       "w": "salieron",
+       "at": 40
+      },
+      {
+       "w": "nueve",
+       "at": 54
+      },
+      {
+       "w": "llamadas.",
+       "at": 61
+      },
+      {
+       "w": "Fechas,",
+       "at": 105
+      },
+      {
+       "w": "horas,",
+       "at": 127
+      },
+      {
+       "w": "y",
+       "at": 143
+      },
+      {
+       "w": "sus",
+       "at": 145
+      },
+      {
+       "w": "propias",
+       "at": 151
+      },
+      {
+       "w": "palabras.",
+       "at": 163
+      },
+      {
+       "w": "Ya",
+       "at": 208
+      },
+      {
+       "w": "no",
+       "at": 216
+      },
+      {
+       "w": "era",
+       "at": 220
+      },
+      {
+       "w": "mi",
+       "at": 225
+      },
+      {
+       "w": "palabra",
+       "at": 228
+      },
+      {
+       "w": "contra",
+       "at": 240
+      },
+      {
+       "w": "la",
+       "at": 249
+      },
+      {
+       "w": "suya.",
+       "at": 253
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "calm",
+   "start": 2220,
+   "dur": 253,
+   "cues": [
+    {
+     "id": "n6",
+     "who": "narr",
+     "at": 8,
+     "dur": 216,
+     "text": "Se lo llevé a una abogada laboral. Y esta noche, por primera vez en meses, duermo con el móvil en silencio.",
+     "words": [
+      {
+       "w": "Se",
+       "at": 8
+      },
+      {
+       "w": "lo",
+       "at": 11
+      },
+      {
+       "w": "llevé",
+       "at": 15
+      },
+      {
+       "w": "a",
+       "at": 23
+      },
+      {
+       "w": "una",
+       "at": 25
+      },
+      {
+       "w": "abogada",
+       "at": 32
+      },
+      {
+       "w": "laboral.",
+       "at": 45
+      },
+      {
+       "w": "Y",
+       "at": 90
+      },
+      {
+       "w": "esta",
+       "at": 97
+      },
+      {
+       "w": "noche,",
+       "at": 105
+      },
+      {
+       "w": "por",
+       "at": 122
+      },
+      {
+       "w": "primera",
+       "at": 128
+      },
+      {
+       "w": "vez",
+       "at": 139
+      },
+      {
+       "w": "en",
+       "at": 146
+      },
+      {
+       "w": "meses,",
+       "at": 149
+      },
+      {
+       "w": "duermo",
+       "at": 167
+      },
+      {
+       "w": "con",
+       "at": 177
+      },
+      {
+       "w": "el",
+       "at": 182
+      },
+      {
+       "w": "móvil",
+       "at": 186
+      },
+      {
+       "w": "en",
+       "at": 197
+      },
+      {
+       "w": "silencio.",
+       "at": 200
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "help",
+   "start": 2473,
+   "dur": 282,
+   "cues": [
+    {
+     "id": "n7",
+     "who": "narr",
+     "at": 9,
+     "dur": 255,
+     "text": "Si te está pasando algo así, no estás exagerando. Habla con tu sindicato, con un abogado laboral, o con la Inspección de Trabajo.",
+     "words": [
+      {
+       "w": "Si",
+       "at": 9
+      },
+      {
+       "w": "te",
+       "at": 13
+      },
+      {
+       "w": "está",
+       "at": 17
+      },
+      {
+       "w": "pasando",
+       "at": 24
+      },
+      {
+       "w": "algo",
+       "at": 39
+      },
+      {
+       "w": "así,",
+       "at": 47
+      },
+      {
+       "w": "no",
+       "at": 61
+      },
+      {
+       "w": "estás",
+       "at": 65
+      },
+      {
+       "w": "exagerando.",
+       "at": 75
+      },
+      {
+       "w": "Habla",
+       "at": 127
+      },
+      {
+       "w": "con",
+       "at": 139
+      },
+      {
+       "w": "tu",
+       "at": 145
+      },
+      {
+       "w": "sindicato,",
+       "at": 148
+      },
+      {
+       "w": "con",
+       "at": 173
+      },
+      {
+       "w": "un",
+       "at": 179
+      },
+      {
+       "w": "abogado",
+       "at": 182
+      },
+      {
+       "w": "laboral,",
+       "at": 195
+      },
+      {
+       "w": "o",
+       "at": 215
+      },
+      {
+       "w": "con",
+       "at": 216
+      },
+      {
+       "w": "la",
+       "at": 222
+      },
+      {
+       "w": "Inspección",
+       "at": 225
+      },
+      {
+       "w": "de",
+       "at": 242
+      },
+      {
+       "w": "Trabajo.",
+       "at": 245
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "end",
+   "start": 2755,
+   "dur": 269,
+   "cues": [
+    {
+     "id": "n8",
+     "who": "narr",
+     "at": 9,
+     "dur": 170,
+     "text": "Y graba solo las conversaciones en las que participas. Acta, en mi canal de Telegram.",
+     "words": [
+      {
+       "w": "Y",
+       "at": 9
+      },
+      {
+       "w": "graba",
+       "at": 11
+      },
+      {
+       "w": "solo",
+       "at": 20
+      },
+      {
+       "w": "las",
+       "at": 28
+      },
+      {
+       "w": "conversaciones",
+       "at": 34
+      },
+      {
+       "w": "en",
+       "at": 59
+      },
+      {
+       "w": "las",
+       "at": 62
+      },
+      {
+       "w": "que",
+       "at": 67
+      },
+      {
+       "w": "participas.",
+       "at": 70
+      },
+      {
+       "w": "Acta,",
+       "at": 119
+      },
+      {
+       "w": "en",
+       "at": 138
+      },
+      {
+       "w": "mi",
+       "at": 142
+      },
+      {
+       "w": "canal",
+       "at": 146
+      },
+      {
+       "w": "de",
+       "at": 155
+      },
+      {
+       "w": "Telegram.",
+       "at": 159
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 3024,
+ "events": {
+  "buzz1": 4,
+  "msg1": 27,
+  "msg2": 60,
+  "msg3": 96,
+  "call_start": 451,
+  "call_end": 1184,
+  "paro": 1938,
+  "nueve": 1984,
+  "fechas": 2035,
+  "silencio": 2420,
+  "abogada": 2252
+ }
+}

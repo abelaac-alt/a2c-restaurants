@@ -1,0 +1,106 @@
+[
+ {
+  "id": "n1",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "-6%",
+  "pitch": "-3Hz",
+  "volume": "+0%",
+  "text": "Catorce llamadas perdidas de mi jefe. Son las doce menos trece de la noche."
+ },
+ {
+  "id": "n2",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "-4%",
+  "pitch": "-3Hz",
+  "volume": "+0%",
+  "text": "Llevo meses sin un fin de semana libre. Y si no contesto, al día siguiente me hace sentir que le he fallado."
+ },
+ {
+  "id": "b1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+4%",
+  "pitch": "-10Hz",
+  "volume": "+0%",
+  "text": "Lucía. ¿Por qué no coges el teléfono? Necesito el informe para mañana a las ocho."
+ },
+ {
+  "id": "l1",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "-10%",
+  "pitch": "-4Hz",
+  "volume": "-8%",
+  "text": "Andrés, son las doce de la noche... Ya te lo entregué hoy a las seis."
+ },
+ {
+  "id": "b2",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "-4%",
+  "pitch": "-12Hz",
+  "volume": "+0%",
+  "text": "Pues lo haces otra vez. Y si te vuelve a parecer un problema, hay mucha gente en el paro que querría tu puesto."
+ },
+ {
+  "id": "l2",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "-14%",
+  "pitch": "-5Hz",
+  "volume": "-12%",
+  "text": "Vale. Lo hago."
+ },
+ {
+  "id": "n3",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "-10%",
+  "pitch": "-4Hz",
+  "volume": "-4%",
+  "text": "Colgó. Me fui al baño a llorar, para que Marcos no me oyera. Pensé que el problema era yo."
+ },
+ {
+  "id": "s1",
+  "voice": "es-ES-ElviraNeural",
+  "rate": "+2%",
+  "pitch": "+0Hz",
+  "volume": "+0%",
+  "text": "Eso no es normal, Lucía. Tienes derecho a desconectar. Pero sin pruebas, es tu palabra contra la suya."
+ },
+ {
+  "id": "n4",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz",
+  "volume": "+0%",
+  "text": "Y entonces me acordé: desde hacía tres semanas, tenía Acta grabando mis llamadas."
+ },
+ {
+  "id": "n5",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "+2%",
+  "pitch": "-1Hz",
+  "volume": "+0%",
+  "text": "Busqué «paro», y salieron nueve llamadas. Fechas, horas, y sus propias palabras. Ya no era mi palabra contra la suya."
+ },
+ {
+  "id": "n6",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "-4%",
+  "pitch": "-2Hz",
+  "volume": "+0%",
+  "text": "Se lo llevé a una abogada laboral. Y esta noche, por primera vez en meses, duermo con el móvil en silencio."
+ },
+ {
+  "id": "n7",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "-2%",
+  "pitch": "-1Hz",
+  "volume": "+0%",
+  "text": "Si te está pasando algo así, no estás exagerando. Habla con tu sindicato, con un abogado laboral, o con la Inspección de Trabajo."
+ },
+ {
+  "id": "n8",
+  "voice": "es-ES-XimenaNeural",
+  "rate": "+2%",
+  "pitch": "+0Hz",
+  "volume": "+0%",
+  "text": "Y graba solo las conversaciones en las que participas. Acta, en mi canal de Telegram."
+ }
+]

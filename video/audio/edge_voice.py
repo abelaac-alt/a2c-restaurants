@@ -16,7 +16,7 @@ SR = 48000
 
 async def synth(L):
     import edge_tts
-    c = edge_tts.Communicate(L.get("say", L["text"]), L["voice"], rate=L.get("rate", "+0%"), pitch=L.get("pitch", "+0Hz"),
+    c = edge_tts.Communicate(L.get("say", L["text"]), L["voice"], rate=L.get("rate", "+0%"), pitch=L.get("pitch", "+0Hz"), volume=L.get("volume", "+0%"),
                              boundary="WordBoundary", proxy=os.environ.get("HTTPS_PROXY"))
     audio, words = bytearray(), []
     async for ch in c.stream():
