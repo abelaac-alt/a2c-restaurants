@@ -1,0 +1,117 @@
+{
+ "fps": 30,
+ "bpm": 120,
+ "scenes": [
+  {
+   "name": "hook",
+   "start": 0,
+   "dur": 135,
+   "cues": [
+    {
+     "id": "a1",
+     "at": 9,
+     "dur": 106,
+     "text": "¿Cuántas veces has colgado y ya no recordabas qué habíais acordado?"
+    }
+   ]
+  },
+  {
+   "name": "logo",
+   "start": 135,
+   "dur": 90,
+   "cues": [
+    {
+     "id": "a2",
+     "at": 10,
+     "dur": 44,
+     "text": "Con Acta, eso se acabó."
+    }
+   ]
+  },
+  {
+   "name": "record",
+   "start": 225,
+   "dur": 135,
+   "cues": [
+    {
+     "id": "a3",
+     "at": 9,
+     "dur": 95,
+     "text": "Acta graba tus llamadas automáticamente, con las dos voces."
+    }
+   ]
+  },
+  {
+   "name": "summary",
+   "start": 360,
+   "dur": 270,
+   "cues": [
+    {
+     "id": "a4",
+     "at": 9,
+     "dur": 135,
+     "text": "Al colgar, la inteligencia artificial te da un resumen y las tareas que acordasteis."
+    },
+    {
+     "id": "a5",
+     "at": 154,
+     "dur": 72,
+     "text": "Y las añades a tu calendario con un toque."
+    }
+   ]
+  },
+  {
+   "name": "search",
+   "start": 630,
+   "dur": 165,
+   "cues": [
+    {
+     "id": "a6",
+     "at": 9,
+     "dur": 116,
+     "text": "¿Qué presupuesto dijo? Busca cualquier palabra y salta al momento exacto."
+    }
+   ]
+  },
+  {
+   "name": "context",
+   "start": 795,
+   "dur": 165,
+   "cues": [
+    {
+     "id": "a7",
+     "at": 9,
+     "dur": 113,
+     "text": "Cuando vuelva a llamarte, Acta te recuerda de qué hablasteis la última vez."
+    }
+   ]
+  },
+  {
+   "name": "privacy",
+   "start": 960,
+   "dur": 165,
+   "cues": [
+    {
+     "id": "a8",
+     "at": 9,
+     "dur": 122,
+     "text": "Y tus grabaciones se quedan en tu móvil, cifradas y protegidas con tu huella."
+    }
+   ]
+  },
+  {
+   "name": "end",
+   "start": 1125,
+   "dur": 165,
+   "cues": [
+    {
+     "id": "a9",
+     "at": 12,
+     "dur": 66,
+     "text": "Acta. Tus llamadas, por fin con memoria."
+    }
+   ]
+  }
+ ],
+ "total": 1290
+}

@@ -1,4 +1,6 @@
 node_modules/
 out/
 public/aviones/mix.wav
+public/acta/mix.wav
 audio/voice/
+audio/acta/voice/
