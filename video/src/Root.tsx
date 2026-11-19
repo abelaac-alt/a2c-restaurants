@@ -9,6 +9,8 @@ import { CASERO_DURATION, CaseroReel } from "./acta3/Reel";
 import { CaseroCover } from "./acta3/Cover";
 import { PLATOS_DURATION, PlatosReel } from "./acta4/Reel";
 import { PlatosCover } from "./acta4/Cover";
+import { TUTORIAL1_DURATION, Tutorial1 } from "./acta5/Part1";
+import { TUTORIAL2_DURATION, Tutorial2 } from "./acta5/Part2";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -29,5 +31,7 @@ export const RemotionRoot: React.FC = () => (
     <Still id="ActaCaseroCover" component={CaseroCover} width={1080} height={1920} defaultProps={{ guides: false }} />
     <Composition id="ActaPlatos" component={PlatosReel} durationInFrames={PLATOS_DURATION} fps={30} width={1080} height={1920} />
     <Still id="ActaPlatosCover" component={PlatosCover} width={1080} height={1920} defaultProps={{ guides: false }} />
+    <Composition id="TutorialActa1" component={Tutorial1} durationInFrames={TUTORIAL1_DURATION} fps={30} width={1080} height={1920} />
+    <Composition id="TutorialActa2" component={Tutorial2} durationInFrames={TUTORIAL2_DURATION} fps={30} width={1080} height={1920} />
   </>
 );

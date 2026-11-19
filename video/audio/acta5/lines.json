@@ -1,0 +1,156 @@
+[
+ {
+  "id": "i1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "En cinco minutos puedes tener Acta instalada, grabando las dos voces de tus llamadas y resumiéndolas con inteligencia artificial gratis. Paso a paso."
+ },
+ {
+  "id": "d1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Paso uno: descarga. Abre mi canal de Telegram, t.me barra actaapp, busca el archivo APK de la última versión y pulsa descargar.",
+  "say": "Paso uno: descarga. Abre mi canal de Telegram, te punto me barra acta app, busca el archivo a pe ká de la última versión y pulsa descargar."
+ },
+ {
+  "id": "d2",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Descárgala solo de ahí, nunca de enlaces de terceros."
+ },
+ {
+  "id": "in1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Paso dos: instalar. Pulsa el archivo descargado. Android te pedirá permitir instalar apps desconocidas desde Telegram: actívalo, vuelve atrás y pulsa Instalar."
+ },
+ {
+  "id": "in2",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Si Play Protect te ofrece analizarla, déjale."
+ },
+ {
+  "id": "p1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Paso tres: permisos. Abre Acta y sigue el asistente. Concede teléfono, contactos, registro de llamadas, micrófono y notificaciones."
+ },
+ {
+  "id": "p2",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Pulsa «Poner Acta como app de teléfono» y acepta: tiene que ser tu app de llamadas para poder grabar. Y en batería, elige «Sin restricciones», para que Android no corte la grabación."
+ },
+ {
+  "id": "a1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Paso cuatro: grabar las dos voces con el ADB propio de Acta. Android solo deja grabar a la otra persona a las apps del sistema, así que lo hacemos una vez, con un ordenador.",
+  "say": "Paso cuatro: grabar las dos voces con el a de be propio de Acta. Android solo deja grabar a la otra persona a las apps del sistema, así que lo hacemos una vez, con un ordenador."
+ },
+ {
+  "id": "a2",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "En el móvil: Ajustes, Acerca del teléfono, y toca siete veces en «Versión de HyperOS» o «MIUI»; en otras marcas, en «Número de compilación». Luego, en Opciones de desarrollador, activa la depuración USB.",
+  "say": "En el móvil: Ajustes, Acerca del teléfono, y toca siete veces en «Versión de Jáiper O S» o «Mi U I»; en otras marcas, en «Número de compilación». Luego, en Opciones de desarrollador, activa la depuración U S B."
+ },
+ {
+  "id": "a3",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "En el ordenador, descarga las Platform Tools de Android, descomprímelas y abre la consola dentro de esa carpeta. Conecta el cable y acepta el aviso del móvil.",
+  "say": "En el ordenador, descarga las Plat-form Tuls de Android, descomprímelas y abre la consola dentro de esa carpeta. Conecta el cable y acepta el aviso del móvil."
+ },
+ {
+  "id": "a4",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Escribe adb devices: debe salir tu móvil con la palabra device. Después, adb tcpip 5555: debe responder con un mensaje que empieza por restarting. En Windows, pon punto y barra invertida antes de adb; en Mac, punto y barra.",
+  "say": "Escribe a de be devices: debe salir tu móvil con la palabra device. Después, a de be te ce pe i pe cinco cinco cinco cinco: debe responder con un mensaje que empieza por restarting. En Windows, pon punto y barra invertida antes de a de be; en Mac, punto y barra."
+ },
+ {
+  "id": "a5",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Vuelve a Acta, pulsa «Conectar grabación completa», acepta la autorización y marca «Permitir siempre». Acta graba cinco segundos y corta la conexión a mitad para comprobar que aguanta. Cuando diga «Todo correcto», ya puedes quitar el cable."
+ },
+ {
+  "id": "a6",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Ojo: si reinicias el móvil, Android cierra el puerto, y repites los dos comandos. Es un minuto."
+ },
+ {
+  "id": "g1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Paso cinco: la inteligencia artificial gratis, con Groq. Entra en console.groq.com y crea una cuenta con Google o con tu correo. En «API Keys», pulsa «Create API Key».",
+  "say": "Paso cinco: la inteligencia artificial gratis, con Grok. Entra en consol punto grok punto com y crea una cuenta con Google o con tu correo. En «A P I Keis», pulsa «Crieit A P I Quei»."
+ },
+ {
+  "id": "g2",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "text": "Copia la clave: empieza por «gsk» guion bajo, y Groq solo te la enseña una vez. En Acta, Ajustes, Clave de Groq: pégala y pulsa Guardar. Activa el análisis automático y tendrás resumen y tareas al colgar.",
+  "say": "Copia la clave: empieza por «ge ese ka» guion bajo, y Grok solo te la enseña una vez. En Acta, Ajustes, Clave de Grok: pégala y pulsa Guardar. Activa el análisis automático y tendrás resumen y tareas al colgar."
+ },
+ {
+  "id": "s1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+6%",
+  "text": "¿Es segura? Las grabaciones se guardan solo en tu móvil, y el desarrollador no recibe tus audios, contactos ni llamadas."
+ },
+ {
+  "id": "s2",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+6%",
+  "text": "Cada audio se cifra con AES-256 al colgar, con una clave protegida por el almacén seguro de Android: si alguien copia los archivos al ordenador, no podrá escucharlos.",
+  "say": "Cada audio se cifra con A E S doscientos cincuenta y seis al colgar, con una clave protegida por el almacén seguro de Android: si alguien copia los archivos al ordenador, no podrá escucharlos."
+ },
+ {
+  "id": "s3",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+6%",
+  "text": "Puedes bloquear las grabaciones con tu huella o tu PIN, y sin capturas de pantalla. Lo único que sale del móvil es el audio de la llamada que analizas con Groq.",
+  "say": "Puedes bloquear las grabaciones con tu huella o tu pin, y sin capturas de pantalla. Lo único que sale del móvil es el audio de la llamada que analizas con Grok."
+ },
+ {
+  "id": "l1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+6%",
+  "text": "¿Y es legal? Acta es una herramienta legal. En España, grabar una llamada en la que participas es legal y puede servir como prueba."
+ },
+ {
+  "id": "l2",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+6%",
+  "text": "Lo que no se puede es grabar conversaciones ajenas ni difundir una grabación sin permiso: eso puede ser delito. El uso es siempre responsabilidad tuya, y esto no es asesoramiento jurídico."
+ },
+ {
+  "id": "l3",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+6%",
+  "text": "Y ante una emergencia, usa la app de teléfono original."
+ },
+ {
+  "id": "e1",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+6%",
+  "text": "Descarga Acta en mi canal de Telegram, t.me barra actaapp. Acta: tus llamadas, con memoria.",
+  "say": "Descarga Acta en mi canal de Telegram, te punto me barra acta app. Acta: tus llamadas, con memoria."
+ },
+ {
+  "id": "ee1",
+  "voice": "es-ES-AlvaroNeural",
+  "text": "Y ya está. En la parte dos: por qué es segura y por qué es legal. El enlace, en mi canal de Telegram.",
+  "rate": "+10%"
+ },
+ {
+  "id": "h2",
+  "voice": "es-ES-AlvaroNeural",
+  "text": "¿Es seguro que una app grabe tus llamadas? ¿Y es legal? Te lo explico.",
+  "rate": "+6%"
+ }
+]
