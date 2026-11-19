@@ -1,0 +1,708 @@
+{
+ "fps": 30,
+ "bpm": 140,
+ "scenes": [
+  {
+   "name": "hook",
+   "start": 0,
+   "dur": 193,
+   "cues": [
+    {
+     "id": "n1",
+     "at": 2,
+     "dur": 103,
+     "text": "Mi casero intentó quedarse con mis mil doscientos euros de fianza.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Mi",
+       "at": 2
+      },
+      {
+       "w": "casero",
+       "at": 5
+      },
+      {
+       "w": "intentó",
+       "at": 17
+      },
+      {
+       "w": "quedarse",
+       "at": 29
+      },
+      {
+       "w": "con",
+       "at": 41
+      },
+      {
+       "w": "mis",
+       "at": 46
+      },
+      {
+       "w": "1.200 €",
+       "at": 51
+      },
+      {
+       "w": "de",
+       "at": 83
+      },
+      {
+       "w": "fianza.",
+       "at": 85
+      }
+     ]
+    },
+    {
+     "id": "n2",
+     "at": 109,
+     "dur": 70,
+     "text": "Y lo que pasó después, no se lo esperaba.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Y",
+       "at": 109
+      },
+      {
+       "w": "lo",
+       "at": 110
+      },
+      {
+       "w": "que",
+       "at": 114
+      },
+      {
+       "w": "pasó",
+       "at": 117
+      },
+      {
+       "w": "después,",
+       "at": 126
+      },
+      {
+       "w": "no",
+       "at": 145
+      },
+      {
+       "w": "se",
+       "at": 151
+      },
+      {
+       "w": "lo",
+       "at": 156
+      },
+      {
+       "w": "esperaba.",
+       "at": 158
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "flash",
+   "start": 193,
+   "dur": 167,
+   "cues": [
+    {
+     "id": "n3",
+     "at": 8,
+     "dur": 92,
+     "text": "Hace un año le llamé para pedirle permiso para pintar el salón.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Hace",
+       "at": 8
+      },
+      {
+       "w": "un",
+       "at": 14
+      },
+      {
+       "w": "año",
+       "at": 17
+      },
+      {
+       "w": "le",
+       "at": 24
+      },
+      {
+       "w": "llamé",
+       "at": 27
+      },
+      {
+       "w": "para",
+       "at": 35
+      },
+      {
+       "w": "pedirle",
+       "at": 41
+      },
+      {
+       "w": "permiso",
+       "at": 54
+      },
+      {
+       "w": "para",
+       "at": 66
+      },
+      {
+       "w": "pintar",
+       "at": 71
+      },
+      {
+       "w": "el",
+       "at": 81
+      },
+      {
+       "w": "salón.",
+       "at": 84
+      }
+     ]
+    },
+    {
+     "id": "n4",
+     "at": 105,
+     "dur": 48,
+     "text": "Me dijo que sí, sin problema.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Me",
+       "at": 105
+      },
+      {
+       "w": "dijo",
+       "at": 109
+      },
+      {
+       "w": "que",
+       "at": 117
+      },
+      {
+       "w": "sí,",
+       "at": 121
+      },
+      {
+       "w": "sin",
+       "at": 128
+      },
+      {
+       "w": "problema.",
+       "at": 135
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "conflict",
+   "start": 360,
+   "dur": 424,
+   "cues": [
+    {
+     "id": "n5",
+     "at": 4,
+     "dur": 83,
+     "text": "Un año después, me voy del piso, y me suelta esto:",
+     "agent": false,
+     "words": [
+      {
+       "w": "Un",
+       "at": 4
+      },
+      {
+       "w": "año",
+       "at": 8
+      },
+      {
+       "w": "después,",
+       "at": 15
+      },
+      {
+       "w": "me",
+       "at": 30
+      },
+      {
+       "w": "voy",
+       "at": 35
+      },
+      {
+       "w": "del",
+       "at": 40
+      },
+      {
+       "w": "piso,",
+       "at": 44
+      },
+      {
+       "w": "y",
+       "at": 56
+      },
+      {
+       "w": "me",
+       "at": 59
+      },
+      {
+       "w": "suelta",
+       "at": 62
+      },
+      {
+       "w": "esto:",
+       "at": 74
+      }
+     ]
+    },
+    {
+     "id": "l1",
+     "at": 97,
+     "dur": 140,
+     "text": "¿Pintar? Yo nunca te di permiso. La fianza me la quedo.",
+     "agent": true,
+     "words": [
+      {
+       "w": "¿Pintar?",
+       "at": 97
+      },
+      {
+       "w": "Yo",
+       "at": 135
+      },
+      {
+       "w": "nunca",
+       "at": 143
+      },
+      {
+       "w": "te",
+       "at": 151
+      },
+      {
+       "w": "di",
+       "at": 154
+      },
+      {
+       "w": "permiso.",
+       "at": 157
+      },
+      {
+       "w": "La",
+       "at": 200
+      },
+      {
+       "w": "fianza",
+       "at": 207
+      },
+      {
+       "w": "me",
+       "at": 217
+      },
+      {
+       "w": "la",
+       "at": 220
+      },
+      {
+       "w": "quedo.",
+       "at": 223
+      }
+     ]
+    },
+    {
+     "id": "n6",
+     "at": 248,
+     "dur": 163,
+     "text": "Mil doscientos euros. Sin pruebas. Su palabra contra la mía.",
+     "agent": false,
+     "words": [
+      {
+       "w": "1.200 €.",
+       "at": 248
+      },
+      {
+       "w": "Sin",
+       "at": 315
+      },
+      {
+       "w": "pruebas.",
+       "at": 322
+      },
+      {
+       "w": "Su",
+       "at": 365
+      },
+      {
+       "w": "palabra",
+       "at": 370
+      },
+      {
+       "w": "contra",
+       "at": 383
+      },
+      {
+       "w": "la",
+       "at": 393
+      },
+      {
+       "w": "mía.",
+       "at": 396
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "turn",
+   "start": 784,
+   "dur": 90,
+   "cues": [
+    {
+     "id": "n7",
+     "at": 4,
+     "dur": 68,
+     "text": "Pero yo grabo todas mis llamadas con Acta.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Pero",
+       "at": 4
+      },
+      {
+       "w": "yo",
+       "at": 9
+      },
+      {
+       "w": "grabo",
+       "at": 14
+      },
+      {
+       "w": "todas",
+       "at": 23
+      },
+      {
+       "w": "mis",
+       "at": 33
+      },
+      {
+       "w": "llamadas",
+       "at": 38
+      },
+      {
+       "w": "con",
+       "at": 52
+      },
+      {
+       "w": "Acta.",
+       "at": 58
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "search",
+   "start": 874,
+   "dur": 309,
+   "cues": [
+    {
+     "id": "n8",
+     "at": 6,
+     "dur": 126,
+     "text": "Busco «pintar», y ahí está: catorce de marzo, minuto uno cuarenta y dos.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Busco",
+       "at": 6
+      },
+      {
+       "w": "«pintar»,",
+       "at": 17
+      },
+      {
+       "w": "y",
+       "at": 33
+      },
+      {
+       "w": "ahí",
+       "at": 37
+      },
+      {
+       "w": "está:",
+       "at": 42
+      },
+      {
+       "w": "14 de marzo,",
+       "at": 60
+      },
+      {
+       "w": "minuto",
+       "at": 89
+      },
+      {
+       "w": "1:42.",
+       "at": 101
+      }
+     ]
+    },
+    {
+     "id": "l2",
+     "at": 143,
+     "dur": 145,
+     "text": "Sí, mujer, pinta el salón del color que quieras. Sin problema.",
+     "agent": true,
+     "words": [
+      {
+       "w": "Sí,",
+       "at": 143
+      },
+      {
+       "w": "mujer,",
+       "at": 160
+      },
+      {
+       "w": "pinta",
+       "at": 181
+      },
+      {
+       "w": "el",
+       "at": 189
+      },
+      {
+       "w": "salón",
+       "at": 192
+      },
+      {
+       "w": "del",
+       "at": 200
+      },
+      {
+       "w": "color",
+       "at": 204
+      },
+      {
+       "w": "que",
+       "at": 214
+      },
+      {
+       "w": "quieras.",
+       "at": 217
+      },
+      {
+       "w": "Sin",
+       "at": 259
+      },
+      {
+       "w": "problema.",
+       "at": 270
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "win",
+   "start": 1183,
+   "dur": 193,
+   "cues": [
+    {
+     "id": "n9",
+     "at": 6,
+     "dur": 155,
+     "text": "Se lo mando. Dos horas después: fianza devuelta. Entera.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Se",
+       "at": 6
+      },
+      {
+       "w": "lo",
+       "at": 10
+      },
+      {
+       "w": "mando.",
+       "at": 14
+      },
+      {
+       "w": "Dos",
+       "at": 52
+      },
+      {
+       "w": "horas",
+       "at": 61
+      },
+      {
+       "w": "después:",
+       "at": 68
+      },
+      {
+       "w": "fianza",
+       "at": 86
+      },
+      {
+       "w": "devuelta.",
+       "at": 100
+      },
+      {
+       "w": "Entera.",
+       "at": 142
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "how",
+   "start": 1376,
+   "dur": 167,
+   "cues": [
+    {
+     "id": "n10",
+     "at": 6,
+     "dur": 139,
+     "text": "Acta graba tus llamadas, las transcribe, y su inteligencia artificial te resume lo que se acordó.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Acta",
+       "at": 6
+      },
+      {
+       "w": "graba",
+       "at": 14
+      },
+      {
+       "w": "tus",
+       "at": 21
+      },
+      {
+       "w": "llamadas,",
+       "at": 26
+      },
+      {
+       "w": "las",
+       "at": 40
+      },
+      {
+       "w": "transcribe,",
+       "at": 45
+      },
+      {
+       "w": "y",
+       "at": 65
+      },
+      {
+       "w": "su",
+       "at": 67
+      },
+      {
+       "w": "inteligencia",
+       "at": 71
+      },
+      {
+       "w": "artificial",
+       "at": 90
+      },
+      {
+       "w": "te",
+       "at": 105
+      },
+      {
+       "w": "resume",
+       "at": 108
+      },
+      {
+       "w": "lo",
+       "at": 120
+      },
+      {
+       "w": "que",
+       "at": 123
+      },
+      {
+       "w": "se",
+       "at": 126
+      },
+      {
+       "w": "acordó.",
+       "at": 129
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "end",
+   "start": 1543,
+   "dur": 219,
+   "cues": [
+    {
+     "id": "n11",
+     "at": 9,
+     "dur": 121,
+     "text": "Las palabras se las lleva el viento. Las tuyas, ya no.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Las",
+       "at": 9
+      },
+      {
+       "w": "palabras",
+       "at": 15
+      },
+      {
+       "w": "se",
+       "at": 29
+      },
+      {
+       "w": "las",
+       "at": 33
+      },
+      {
+       "w": "lleva",
+       "at": 38
+      },
+      {
+       "w": "el",
+       "at": 45
+      },
+      {
+       "w": "viento.",
+       "at": 48
+      },
+      {
+       "w": "Las",
+       "at": 89
+      },
+      {
+       "w": "tuyas,",
+       "at": 96
+      },
+      {
+       "w": "ya",
+       "at": 111
+      },
+      {
+       "w": "no.",
+       "at": 118
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 1761,
+ "events": {
+  "hit1": 145,
+  "hit2": 158,
+  "flash": 193,
+  "l1": 457,
+  "l1_end": 597,
+  "drop": 842,
+  "l2": 1017,
+  "l2_end": 1162,
+  "refund": 1283,
+  "end_hit": 1646
+ }
+}

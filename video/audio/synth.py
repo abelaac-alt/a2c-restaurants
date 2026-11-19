@@ -145,3 +145,68 @@ def phone_eq(x):
     y = np.tanh(2.2 * y / (np.abs(y).max() + 1e-9))
     y += 0.012 * hp(rng.standard_normal(len(y)), 2000)
     return y / (np.abs(y).max() + 1e-9)
+
+
+# ---------- instrumentos extra (trap, lo-fi, future bass) ----------
+def bass808(m, d, glide_from=None):
+    x = tt(d)
+    f0 = hz(m)
+    if glide_from is not None:
+        f = hz(glide_from) + (f0 - hz(glide_from)) * (1 - np.exp(-x / 0.06))
+    else:
+        f = np.full(len(x), f0)
+    s = np.sin(2 * np.pi * np.cumsum(f) / SR)
+    s = np.tanh(2.2 * s) * 0.8
+    env = np.minimum(1, x / 0.004) * np.exp(-x / 0.9) * np.minimum(1, (d - x) / 0.03).clip(0, 1)
+    return s * env
+
+
+def snare():
+    x = tt(0.3)
+    tone = np.sin(2 * np.pi * 190 * x) * np.exp(-x / 0.05)
+    n = bp(rng.standard_normal(len(x)), 1200, 9000) * np.exp(-x / 0.09)
+    return 0.5 * tone + n
+
+
+def rhodes(m, d):
+    x = tt(d)
+    f = hz(m)
+    s = np.sin(2 * np.pi * f * x + 1.2 * np.exp(-x / 0.4) * np.sin(2 * np.pi * 2 * f * x))
+    s *= 1 + 0.15 * np.sin(2 * np.pi * 4.5 * x)
+    return s * np.minimum(1, x / 0.01) * np.exp(-x / 1.6)
+
+
+def bell(m, d=0.9):
+    x = tt(d)
+    f = hz(m)
+    s = np.sin(2 * np.pi * f * x + 2.0 * np.exp(-x / 0.25) * np.sin(2 * np.pi * 3.5 * f * x))
+    return s * np.exp(-x / 0.35)
+
+
+def crackle(d):
+    n = int(d * SR)
+    out = np.zeros(n)
+    pops = rng.random(n) > 0.9993
+    out[pops] = rng.standard_normal(pops.sum()) * 0.8
+    out = hp(out, 1500) + 0.02 * lp(rng.standard_normal(n), 3000)
+    return out
+
+
+def hit():
+    """golpe cinematográfico: sub + ruido + acorde grave"""
+    x = tt(2.2)
+    sub = np.sin(2 * np.pi * np.cumsum(30 + 50 * np.exp(-x / 0.2)) / SR) * np.exp(-x / 0.8)
+    n = lp(rng.standard_normal(len(x)), 900) * np.exp(-x / 0.35)
+    st = sum(np.sin(2 * np.pi * hz(m) * x) for m in (36, 43, 48)) / 3 * np.exp(-x / 0.9)
+    return np.tanh(1.5 * (sub + 0.5 * n + 0.6 * st))
+
+
+def downlifter(d):
+    x = tt(d)
+    noise = rng.standard_normal(len(x))
+    out = np.zeros(len(x))
+    for i in range(0, len(x), 1200):
+        f = 6000 * (1 - i / len(x)) ** 2 + 300
+        seg = bp(noise[max(0, i - 3000) : i + 1200], f * 0.8, min(f * 1.25, 20000))[-min(1200, len(x) - i) :]
+        out[i : i + len(seg)] = seg
+    return out * (1 - x / d) ** 1.5

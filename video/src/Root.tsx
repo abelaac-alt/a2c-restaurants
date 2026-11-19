@@ -5,6 +5,8 @@ import { ACTA_DURATION, ActaReel } from "./acta/ActaReel";
 import { ActaCover } from "./acta/Cover";
 import { STORY_DURATION, StoryReel } from "./acta2/StoryReel";
 import { StoryCover } from "./acta2/Cover";
+import { CASERO_DURATION, CaseroReel } from "./acta3/Reel";
+import { CaseroCover } from "./acta3/Cover";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -21,5 +23,7 @@ export const RemotionRoot: React.FC = () => (
     <Still id="ActaCover" component={ActaCover} width={1080} height={1920} defaultProps={{ guides: false }} />
     <Composition id="ActaHistoria" component={StoryReel} durationInFrames={STORY_DURATION} fps={30} width={1080} height={1920} />
     <Still id="ActaHistoriaCover" component={StoryCover} width={1080} height={1920} defaultProps={{ guides: false }} />
+    <Composition id="ActaCasero" component={CaseroReel} durationInFrames={CASERO_DURATION} fps={30} width={1080} height={1920} />
+    <Still id="ActaCaseroCover" component={CaseroCover} width={1080} height={1920} defaultProps={{ guides: false }} />
   </>
 );
