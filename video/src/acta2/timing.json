@@ -1,0 +1,510 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "name": "hook",
+   "start": 0,
+   "dur": 165,
+   "cues": [
+    {
+     "id": "h1",
+     "at": 3,
+     "dur": 91,
+     "text": "Me dijeron por teléfono que la instalación era gratis.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Me",
+       "at": 3
+      },
+      {
+       "w": "dijeron",
+       "at": 8
+      },
+      {
+       "w": "por",
+       "at": 20
+      },
+      {
+       "w": "teléfono",
+       "at": 26
+      },
+      {
+       "w": "que",
+       "at": 39
+      },
+      {
+       "w": "la",
+       "at": 45
+      },
+      {
+       "w": "instalación",
+       "at": 50
+      },
+      {
+       "w": "era",
+       "at": 67
+      },
+      {
+       "w": "gratis.",
+       "at": 73
+      }
+     ]
+    },
+    {
+     "id": "h2",
+     "at": 100,
+     "dur": 53,
+     "text": "Un mes después, me llega esto.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Un",
+       "at": 100
+      },
+      {
+       "w": "mes",
+       "at": 104
+      },
+      {
+       "w": "después,",
+       "at": 110
+      },
+      {
+       "w": "me",
+       "at": 126
+      },
+      {
+       "w": "llega",
+       "at": 130
+      },
+      {
+       "w": "esto.",
+       "at": 138
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "deny",
+   "start": 165,
+   "dur": 105,
+   "cues": [
+    {
+     "id": "h3",
+     "at": 3,
+     "dur": 75,
+     "text": "Llamo, y me dicen que ellos nunca dijeron eso.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Llamo,",
+       "at": 3
+      },
+      {
+       "w": "y",
+       "at": 16
+      },
+      {
+       "w": "me",
+       "at": 20
+      },
+      {
+       "w": "dicen",
+       "at": 24
+      },
+      {
+       "w": "que",
+       "at": 32
+      },
+      {
+       "w": "ellos",
+       "at": 38
+      },
+      {
+       "w": "nunca",
+       "at": 46
+      },
+      {
+       "w": "dijeron",
+       "at": 53
+      },
+      {
+       "w": "eso.",
+       "at": 63
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "acta",
+   "start": 270,
+   "dur": 60,
+   "cues": [
+    {
+     "id": "h4",
+     "at": 4,
+     "dur": 40,
+     "text": "Pero yo tengo Acta.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Pero",
+       "at": 4
+      },
+      {
+       "w": "yo",
+       "at": 13
+      },
+      {
+       "w": "tengo",
+       "at": 18
+      },
+      {
+       "w": "Acta.",
+       "at": 28
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "search",
+   "start": 330,
+   "dur": 300,
+   "cues": [
+    {
+     "id": "h5",
+     "at": 6,
+     "dur": 52,
+     "text": "Busco «gratis» en mis llamadas...",
+     "agent": false,
+     "words": [
+      {
+       "w": "Busco",
+       "at": 6
+      },
+      {
+       "w": "gratis",
+       "at": 14
+      },
+      {
+       "w": "en",
+       "at": 24
+      },
+      {
+       "w": "mis",
+       "at": 29
+      },
+      {
+       "w": "llamadas...",
+       "at": 35
+      }
+     ]
+    },
+    {
+     "id": "h6",
+     "at": 67,
+     "dur": 87,
+     "text": "y ahí está. Doce de marzo, minuto tres veintisiete.",
+     "agent": false,
+     "words": [
+      {
+       "w": "y",
+       "at": 67
+      },
+      {
+       "w": "ahí",
+       "at": 70
+      },
+      {
+       "w": "está.",
+       "at": 76
+      },
+      {
+       "w": "Doce",
+       "at": 89
+      },
+      {
+       "w": "de",
+       "at": 95
+      },
+      {
+       "w": "marzo,",
+       "at": 100
+      },
+      {
+       "w": "minuto",
+       "at": 114
+      },
+      {
+       "w": "tres",
+       "at": 123
+      },
+      {
+       "w": "veintisiete.",
+       "at": 130
+      }
+     ]
+    },
+    {
+     "id": "h7",
+     "at": 165,
+     "dur": 108,
+     "text": "La instalación es totalmente gratis, no tendrá que pagar nada.",
+     "agent": true,
+     "words": [
+      {
+       "w": "La",
+       "at": 165
+      },
+      {
+       "w": "instalación",
+       "at": 170
+      },
+      {
+       "w": "es",
+       "at": 186
+      },
+      {
+       "w": "totalmente",
+       "at": 192
+      },
+      {
+       "w": "gratis,",
+       "at": 207
+      },
+      {
+       "w": "no",
+       "at": 223
+      },
+      {
+       "w": "tendrá",
+       "at": 229
+      },
+      {
+       "w": "que",
+       "at": 239
+      },
+      {
+       "w": "pagar",
+       "at": 245
+      },
+      {
+       "w": "nada.",
+       "at": 254
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "win",
+   "start": 630,
+   "dur": 135,
+   "cues": [
+    {
+     "id": "h8",
+     "at": 6,
+     "dur": 100,
+     "text": "Les doy el día, la hora y el minuto exacto. Me anulan el cargo.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Les",
+       "at": 6
+      },
+      {
+       "w": "doy",
+       "at": 11
+      },
+      {
+       "w": "el",
+       "at": 17
+      },
+      {
+       "w": "día,",
+       "at": 21
+      },
+      {
+       "w": "la",
+       "at": 32
+      },
+      {
+       "w": "hora",
+       "at": 36
+      },
+      {
+       "w": "y",
+       "at": 42
+      },
+      {
+       "w": "el",
+       "at": 46
+      },
+      {
+       "w": "minuto",
+       "at": 50
+      },
+      {
+       "w": "exacto.",
+       "at": 58
+      },
+      {
+       "w": "Me",
+       "at": 72
+      },
+      {
+       "w": "anulan",
+       "at": 77
+      },
+      {
+       "w": "el",
+       "at": 85
+      },
+      {
+       "w": "cargo.",
+       "at": 89
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "how",
+   "start": 765,
+   "dur": 150,
+   "cues": [
+    {
+     "id": "h9",
+     "at": 6,
+     "dur": 113,
+     "text": "Acta graba tus llamadas, las transcribe y te resume lo que se acordó.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Acta",
+       "at": 6
+      },
+      {
+       "w": "graba",
+       "at": 13
+      },
+      {
+       "w": "tus",
+       "at": 22
+      },
+      {
+       "w": "llamadas,",
+       "at": 27
+      },
+      {
+       "w": "las",
+       "at": 45
+      },
+      {
+       "w": "transcribe",
+       "at": 51
+      },
+      {
+       "w": "y",
+       "at": 66
+      },
+      {
+       "w": "te",
+       "at": 69
+      },
+      {
+       "w": "resume",
+       "at": 74
+      },
+      {
+       "w": "lo",
+       "at": 84
+      },
+      {
+       "w": "que",
+       "at": 88
+      },
+      {
+       "w": "se",
+       "at": 94
+      },
+      {
+       "w": "acordó.",
+       "at": 99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "end",
+   "start": 915,
+   "dur": 180,
+   "cues": [
+    {
+     "id": "h10",
+     "at": 9,
+     "dur": 85,
+     "text": "Que no te la cuelen. Acta: tus llamadas, con memoria.",
+     "agent": false,
+     "words": [
+      {
+       "w": "Que",
+       "at": 9
+      },
+      {
+       "w": "no",
+       "at": 14
+      },
+      {
+       "w": "te",
+       "at": 18
+      },
+      {
+       "w": "la",
+       "at": 22
+      },
+      {
+       "w": "cuelen.",
+       "at": 26
+      },
+      {
+       "w": "Acta:",
+       "at": 40
+      },
+      {
+       "w": "tus",
+       "at": 51
+      },
+      {
+       "w": "llamadas,",
+       "at": 56
+      },
+      {
+       "w": "con",
+       "at": 71
+      },
+      {
+       "w": "memoria.",
+       "at": 77
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 1095,
+ "events": {
+  "bill": 141,
+  "scratch": 244,
+  "drop": 270,
+  "agent": 495,
+  "agent_end": 603,
+  "refund": 711,
+  "end_hit": 1035
+ }
+}

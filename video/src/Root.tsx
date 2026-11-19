@@ -3,6 +3,8 @@ import { HelloA2C } from "./HelloA2C";
 import { AVIONES_DURATION, PorQueVuelan } from "./aviones/Video";
 import { ACTA_DURATION, ActaReel } from "./acta/ActaReel";
 import { ActaCover } from "./acta/Cover";
+import { STORY_DURATION, StoryReel } from "./acta2/StoryReel";
+import { StoryCover } from "./acta2/Cover";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -17,5 +19,7 @@ export const RemotionRoot: React.FC = () => (
     />
     <Composition id="ActaReel" component={ActaReel} durationInFrames={ACTA_DURATION} fps={30} width={1080} height={1920} />
     <Still id="ActaCover" component={ActaCover} width={1080} height={1920} defaultProps={{ guides: false }} />
+    <Composition id="ActaHistoria" component={StoryReel} durationInFrames={STORY_DURATION} fps={30} width={1080} height={1920} />
+    <Still id="ActaHistoriaCover" component={StoryCover} width={1080} height={1920} defaultProps={{ guides: false }} />
   </>
 );
