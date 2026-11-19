@@ -210,3 +210,70 @@ def downlifter(d):
         seg = bp(noise[max(0, i - 3000) : i + 1200], f * 0.8, min(f * 1.25, 20000))[-min(1200, len(x) - i) :]
         out[i : i + len(seg)] = seg
     return out * (1 - x / d) ** 1.5
+
+
+# ---------- efectos de humor ----------
+def airhorn(d=0.9):
+    """bocina de estadio: acorde de sierras con vibrato y ataque brusco"""
+    x = tt(d)
+    out = np.zeros(len(x))
+    for f0 in (466, 554, 698):
+        f = f0 * (1 + 0.012 * np.sin(2 * np.pi * 7 * x))
+        ph = np.cumsum(f) / SR
+        out += 2 * (ph % 1) - 1
+    out = bp(out / 3, 300, 5000)
+    env = np.minimum(1, x / 0.01) * np.minimum(1, (d - x) / 0.05).clip(0, 1)
+    return np.tanh(2.5 * out) * env
+
+
+def crickets(d):
+    x = tt(d)
+    out = np.zeros(len(x))
+    for f0, rate, ph in ((4300, 3.1, 0.0), (4700, 2.6, 0.4)):
+        chirp = (np.sin(2 * np.pi * 60 * x) > 0.2) * (np.sin(2 * np.pi * rate * x + ph * 6) > 0.55)
+        out += np.sin(2 * np.pi * f0 * x) * chirp
+    return lp(out, 6000) * 0.5
+
+
+def sad_trombone():
+    """«wa-wa-wa-waaa»: cuatro notas descendentes con wah"""
+    notes = [(62, 0.32), (61, 0.32), (60, 0.32), (59, 1.3)]
+    out = []
+    for m, d in notes:
+        x = tt(d)
+        f = hz(m - 12) * (1 + (0.015 * np.sin(2 * np.pi * 5.5 * x) if d > 1 else 0))
+        ph = np.cumsum(np.broadcast_to(f, x.shape)) / SR
+        s = 2 * (ph % 1) - 1
+        wah = 600 + 1400 * np.minimum(1, x / 0.12)
+        y = np.zeros(len(x))
+        blk = 480
+        for i in range(0, len(x), blk):
+            seg = s[max(0, i - 2000) : i + blk]
+            y[i : i + blk] = lp(seg, float(wah[min(i, len(wah) - 1)]))[-len(y[i : i + blk]) :]
+        env = np.minimum(1, x / 0.03) * np.minimum(1, (d - x) / 0.05).clip(0, 1)
+        out.append(np.tanh(1.8 * y) * env)
+    return np.concatenate(out)
+
+
+def bubbles(d, n=14):
+    out = np.zeros(int(d * SR))
+    for _ in range(n):
+        at = int(rng.random() * (len(out) - int(0.08 * SR)))
+        x = tt(0.07)
+        f = (600 + 900 * rng.random()) * (1 + 3 * x / 0.07)
+        b = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-x / 0.025)
+        out[at : at + len(b)] += b
+    return out
+
+
+def pizz(m, d=0.22):
+    x = tt(d)
+    s = np.sin(2 * np.pi * hz(m) * x) + 0.4 * np.sin(4 * np.pi * hz(m) * x) + 0.15 * np.sin(6 * np.pi * hz(m) * x)
+    return s * np.minimum(1, x / 0.003) * np.exp(-x / 0.07)
+
+
+def pitch(x, semis):
+    """cambia el tono (y la duración) remuestreando"""
+    import soxr
+    r = 2 ** (semis / 12)
+    return soxr.resample(x, SR, int(SR / r))

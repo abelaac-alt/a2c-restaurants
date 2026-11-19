@@ -1,0 +1,16 @@
+[
+ {"id":"n1","voice":"es-ES-XimenaNeural","rate":"+6%","text":"Mi novio me prometió fregar los platos un mes entero."},
+ {"id":"n2","voice":"es-ES-XimenaNeural","rate":"+6%","text":"Y luego tuvo el valor de decirme que nunca lo dijo."},
+ {"id":"n3","voice":"es-ES-XimenaNeural","rate":"+6%","text":"Todo empezó con una apuesta, por teléfono."},
+ {"id":"b1","voice":"es-ES-AlvaroNeural","rate":"+10%","text":"Si apruebas el carnet a la primera, friego yo los platos un mes entero. Palabra."},
+ {"id":"n4","voice":"es-ES-XimenaNeural","rate":"+0%","text":"Aprobé. A la primera."},
+ {"id":"n5","voice":"es-ES-XimenaNeural","rate":"+6%","text":"Y a él, de repente, le entró amnesia."},
+ {"id":"b2","voice":"es-ES-AlvaroNeural","rate":"+4%","pitch":"+4Hz","text":"¿Yo? ¿Fregar un mes? Eso no lo he dicho en mi vida."},
+ {"id":"n6","voice":"es-ES-XimenaNeural","rate":"+6%","text":"Lo que no sabía es que yo grabo todas mis llamadas con Acta."},
+ {"id":"n7","voice":"es-ES-XimenaNeural","rate":"+8%","text":"Y Acta no solo lo grabó. Me hizo hasta la lista de tareas."},
+ {"id":"n8","voice":"es-ES-XimenaNeural","rate":"+4%","text":"Tarea pendiente: Pedro friega los platos. Treinta días."},
+ {"id":"n9","voice":"es-ES-XimenaNeural","rate":"+6%","text":"Así que le puse el audio. En bucle."},
+ {"id":"n10","voice":"es-ES-XimenaNeural","rate":"+6%","text":"Día doce. Ya no discute. Ni con la sartén."},
+ {"id":"n11","voice":"es-ES-XimenaNeural","rate":"+10%","text":"Acta graba tus llamadas, las transcribe y te apunta lo que se acordó."},
+ {"id":"n12","voice":"es-ES-XimenaNeural","rate":"+2%","text":"Porque las promesas se las lleva el viento. Y los platos... Pedro."}
+]

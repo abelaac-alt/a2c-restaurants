@@ -1,0 +1,723 @@
+{
+ "fps": 30,
+ "bpm": 140,
+ "scenes": [
+  {
+   "name": "hook",
+   "start": 0,
+   "dur": 180,
+   "cues": [
+    {
+     "id": "n1",
+     "at": 2,
+     "dur": 78,
+     "text": "Mi novio me prometió fregar los platos un mes entero.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Mi",
+       "at": 2
+      },
+      {
+       "w": "novio",
+       "at": 5
+      },
+      {
+       "w": "me",
+       "at": 13
+      },
+      {
+       "w": "prometió",
+       "at": 17
+      },
+      {
+       "w": "fregar",
+       "at": 30
+      },
+      {
+       "w": "los",
+       "at": 39
+      },
+      {
+       "w": "platos",
+       "at": 44
+      },
+      {
+       "w": "un",
+       "at": 56
+      },
+      {
+       "w": "mes",
+       "at": 59
+      },
+      {
+       "w": "entero.",
+       "at": 65
+      }
+     ]
+    },
+    {
+     "id": "n2",
+     "at": 84,
+     "dur": 75,
+     "text": "Y luego tuvo el valor de decirme que nunca lo dijo.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Y",
+       "at": 84
+      },
+      {
+       "w": "luego",
+       "at": 86
+      },
+      {
+       "w": "tuvo",
+       "at": 96
+      },
+      {
+       "w": "el",
+       "at": 103
+      },
+      {
+       "w": "valor",
+       "at": 106
+      },
+      {
+       "w": "de",
+       "at": 115
+      },
+      {
+       "w": "decirme",
+       "at": 118
+      },
+      {
+       "w": "que",
+       "at": 131
+      },
+      {
+       "w": "nunca",
+       "at": 135
+      },
+      {
+       "w": "lo",
+       "at": 143
+      },
+      {
+       "w": "dijo.",
+       "at": 146
+      }
+     ]
+    }
+   ],
+   "extra_from": null
+  },
+  {
+   "name": "bet",
+   "start": 180,
+   "dur": 244,
+   "cues": [
+    {
+     "id": "n3",
+     "at": 4,
+     "dur": 69,
+     "text": "Todo empezó con una apuesta, por teléfono.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Todo",
+       "at": 4
+      },
+      {
+       "w": "empezó",
+       "at": 11
+      },
+      {
+       "w": "con",
+       "at": 22
+      },
+      {
+       "w": "una",
+       "at": 27
+      },
+      {
+       "w": "apuesta,",
+       "at": 32
+      },
+      {
+       "w": "por",
+       "at": 50
+      },
+      {
+       "w": "teléfono.",
+       "at": 55
+      }
+     ]
+    },
+    {
+     "id": "b1",
+     "at": 81,
+     "dur": 148,
+     "text": "Si apruebas el carnet a la primera, friego yo los platos un mes entero. Palabra.",
+     "pedro": true,
+     "words": [
+      {
+       "w": "Si",
+       "at": 81
+      },
+      {
+       "w": "apruebas",
+       "at": 86
+      },
+      {
+       "w": "el",
+       "at": 98
+      },
+      {
+       "w": "carnet",
+       "at": 101
+      },
+      {
+       "w": "a",
+       "at": 112
+      },
+      {
+       "w": "la",
+       "at": 114
+      },
+      {
+       "w": "primera,",
+       "at": 117
+      },
+      {
+       "w": "friego",
+       "at": 135
+      },
+      {
+       "w": "yo",
+       "at": 146
+      },
+      {
+       "w": "los",
+       "at": 150
+      },
+      {
+       "w": "platos",
+       "at": 155
+      },
+      {
+       "w": "un",
+       "at": 166
+      },
+      {
+       "w": "mes",
+       "at": 169
+      },
+      {
+       "w": "entero.",
+       "at": 175
+      },
+      {
+       "w": "Palabra.",
+       "at": 213
+      }
+     ]
+    }
+   ],
+   "extra_from": null
+  },
+  {
+   "name": "pass",
+   "start": 424,
+   "dur": 103,
+   "cues": [
+    {
+     "id": "n4",
+     "at": 3,
+     "dur": 69,
+     "text": "Aprobé. A la primera.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Aprobé.",
+       "at": 3
+      },
+      {
+       "w": "A",
+       "at": 44
+      },
+      {
+       "w": "la",
+       "at": 50
+      },
+      {
+       "w": "primera.",
+       "at": 54
+      }
+     ]
+    }
+   ],
+   "extra_from": null
+  },
+  {
+   "name": "amnesia",
+   "start": 527,
+   "dur": 257,
+   "cues": [
+    {
+     "id": "n5",
+     "at": 4,
+     "dur": 70,
+     "text": "Y a él, de repente, le entró amnesia.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Y",
+       "at": 4
+      },
+      {
+       "w": "a",
+       "at": 7
+      },
+      {
+       "w": "él,",
+       "at": 11
+      },
+      {
+       "w": "de",
+       "at": 20
+      },
+      {
+       "w": "repente,",
+       "at": 23
+      },
+      {
+       "w": "le",
+       "at": 42
+      },
+      {
+       "w": "entró",
+       "at": 46
+      },
+      {
+       "w": "amnesia.",
+       "at": 54
+      }
+     ]
+    },
+    {
+     "id": "b2",
+     "at": 92,
+     "dur": 136,
+     "text": "¿Yo? ¿Fregar un mes? Eso no lo he dicho en mi vida.",
+     "pedro": true,
+     "words": [
+      {
+       "w": "¿Yo?",
+       "at": 92
+      },
+      {
+       "w": "¿Fregar",
+       "at": 129
+      },
+      {
+       "w": "un",
+       "at": 142
+      },
+      {
+       "w": "mes?",
+       "at": 145
+      },
+      {
+       "w": "Eso",
+       "at": 182
+      },
+      {
+       "w": "no",
+       "at": 192
+      },
+      {
+       "w": "lo",
+       "at": 196
+      },
+      {
+       "w": "he",
+       "at": 199
+      },
+      {
+       "w": "dicho",
+       "at": 201
+      },
+      {
+       "w": "en",
+       "at": 210
+      },
+      {
+       "w": "mi",
+       "at": 212
+      },
+      {
+       "w": "vida.",
+       "at": 215
+      }
+     ]
+    }
+   ],
+   "extra_from": null
+  },
+  {
+   "name": "turn",
+   "start": 784,
+   "dur": 116,
+   "cues": [
+    {
+     "id": "n6",
+     "at": 3,
+     "dur": 87,
+     "text": "Lo que no sabía es que yo grabo todas mis llamadas con Acta.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Lo",
+       "at": 3
+      },
+      {
+       "w": "que",
+       "at": 7
+      },
+      {
+       "w": "no",
+       "at": 10
+      },
+      {
+       "w": "sabía",
+       "at": 14
+      },
+      {
+       "w": "es",
+       "at": 25
+      },
+      {
+       "w": "que",
+       "at": 29
+      },
+      {
+       "w": "yo",
+       "at": 32
+      },
+      {
+       "w": "grabo",
+       "at": 37
+      },
+      {
+       "w": "todas",
+       "at": 46
+      },
+      {
+       "w": "mis",
+       "at": 55
+      },
+      {
+       "w": "llamadas",
+       "at": 60
+      },
+      {
+       "w": "con",
+       "at": 72
+      },
+      {
+       "w": "Acta.",
+       "at": 77
+      }
+     ]
+    }
+   ],
+   "extra_from": null
+  },
+  {
+   "name": "tasks",
+   "start": 900,
+   "dur": 270,
+   "cues": [
+    {
+     "id": "n7",
+     "at": 4,
+     "dur": 115,
+     "text": "Y Acta no solo lo grabó. Me hizo hasta la lista de tareas.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Y",
+       "at": 4
+      },
+      {
+       "w": "Acta",
+       "at": 8
+      },
+      {
+       "w": "no",
+       "at": 15
+      },
+      {
+       "w": "solo",
+       "at": 19
+      },
+      {
+       "w": "lo",
+       "at": 27
+      },
+      {
+       "w": "grabó.",
+       "at": 30
+      },
+      {
+       "w": "Me",
+       "at": 66
+      },
+      {
+       "w": "hizo",
+       "at": 74
+      },
+      {
+       "w": "hasta",
+       "at": 81
+      },
+      {
+       "w": "la",
+       "at": 88
+      },
+      {
+       "w": "lista",
+       "at": 90
+      },
+      {
+       "w": "de",
+       "at": 99
+      },
+      {
+       "w": "tareas.",
+       "at": 103
+      }
+     ]
+    },
+    {
+     "id": "n8",
+     "at": 127,
+     "dur": 127,
+     "text": "Tarea pendiente: Pedro friega los platos. Treinta días.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Tarea",
+       "at": 127
+      },
+      {
+       "w": "pendiente:",
+       "at": 136
+      },
+      {
+       "w": "Pedro",
+       "at": 158
+      },
+      {
+       "w": "friega",
+       "at": 167
+      },
+      {
+       "w": "los",
+       "at": 177
+      },
+      {
+       "w": "platos.",
+       "at": 182
+      },
+      {
+       "w": "30 días.",
+       "at": 225
+      }
+     ]
+    }
+   ],
+   "extra_from": null
+  },
+  {
+   "name": "remix",
+   "start": 1170,
+   "dur": 206,
+   "cues": [
+    {
+     "id": "n9",
+     "at": 4,
+     "dur": 89,
+     "text": "Así que le puse el audio. En bucle.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Así",
+       "at": 4
+      },
+      {
+       "w": "que",
+       "at": 11
+      },
+      {
+       "w": "le",
+       "at": 15
+      },
+      {
+       "w": "puse",
+       "at": 18
+      },
+      {
+       "w": "el",
+       "at": 27
+      },
+      {
+       "w": "audio.",
+       "at": 30
+      },
+      {
+       "w": "En",
+       "at": 69
+      },
+      {
+       "w": "bucle.",
+       "at": 76
+      }
+     ]
+    }
+   ],
+   "extra_from": 103
+  },
+  {
+   "name": "montage",
+   "start": 1376,
+   "dur": 154,
+   "cues": [
+    {
+     "id": "n10",
+     "at": 4,
+     "dur": 136,
+     "text": "Día doce. Ya no discute. Ni con la sartén.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Día 12.",
+       "at": 4
+      },
+      {
+       "w": "Ya",
+       "at": 51
+      },
+      {
+       "w": "no",
+       "at": 60
+      },
+      {
+       "w": "discute.",
+       "at": 63
+      },
+      {
+       "w": "Ni",
+       "at": 106
+      },
+      {
+       "w": "con",
+       "at": 114
+      },
+      {
+       "w": "la",
+       "at": 119
+      },
+      {
+       "w": "sartén.",
+       "at": 122
+      }
+     ]
+    }
+   ],
+   "extra_from": null
+  },
+  {
+   "name": "end",
+   "start": 1530,
+   "dur": 296,
+   "cues": [
+    {
+     "id": "n12",
+     "at": 9,
+     "dur": 157,
+     "text": "Porque las promesas se las lleva el viento. Y los platos... Pedro.",
+     "pedro": false,
+     "words": [
+      {
+       "w": "Porque",
+       "at": 9
+      },
+      {
+       "w": "las",
+       "at": 16
+      },
+      {
+       "w": "promesas",
+       "at": 21
+      },
+      {
+       "w": "se",
+       "at": 35
+      },
+      {
+       "w": "las",
+       "at": 38
+      },
+      {
+       "w": "lleva",
+       "at": 43
+      },
+      {
+       "w": "el",
+       "at": 50
+      },
+      {
+       "w": "viento.",
+       "at": 53
+      },
+      {
+       "w": "Y",
+       "at": 93
+      },
+      {
+       "w": "los",
+       "at": 99
+      },
+      {
+       "w": "platos...",
+       "at": 106
+      },
+      {
+       "w": "Pedro.",
+       "at": 149
+      }
+     ]
+    }
+   ],
+   "extra_from": null
+  }
+ ],
+ "total": 1826,
+ "events": {
+  "b1": 261,
+  "b1_end": 409,
+  "palabra": 393,
+  "aprobe": 427,
+  "amnesia": 582,
+  "b2": 620,
+  "b2_end": 756,
+  "drop": 861,
+  "task": 1027,
+  "remix": 1273,
+  "pedro_end": 1679,
+  "trombone": 1700,
+  "end_hit": 1772
+ }
+}
