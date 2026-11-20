@@ -1,0 +1,928 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "name": "hook",
+   "start": 0,
+   "dur": 147,
+   "cues": [
+    {
+     "id": "n1",
+     "who": "narr",
+     "at": 14,
+     "dur": 119,
+     "text": "Me han cobrado 312 euros por algo que me juraron que era gratis.",
+     "words": [
+      {
+       "w": "Me",
+       "at": 14
+      },
+      {
+       "w": "han",
+       "at": 18
+      },
+      {
+       "w": "cobrado",
+       "at": 21
+      },
+      {
+       "w": "312",
+       "at": 33
+      },
+      {
+       "w": "euros",
+       "at": 61
+      },
+      {
+       "w": "por",
+       "at": 71
+      },
+      {
+       "w": "algo",
+       "at": 76
+      },
+      {
+       "w": "que",
+       "at": 84
+      },
+      {
+       "w": "me",
+       "at": 88
+      },
+      {
+       "w": "juraron",
+       "at": 91
+      },
+      {
+       "w": "que",
+       "at": 105
+      },
+      {
+       "w": "era",
+       "at": 109
+      },
+      {
+       "w": "gratis.",
+       "at": 114
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "context",
+   "start": 147,
+   "dur": 224,
+   "cues": [
+    {
+     "id": "n2",
+     "who": "narr",
+     "at": 9,
+     "dur": 197,
+     "text": "Hace tres meses contraté fibra y móvil. El comercial me prometió lo que quería oír, y yo no apunté nada.",
+     "words": [
+      {
+       "w": "Hace",
+       "at": 9
+      },
+      {
+       "w": "tres",
+       "at": 16
+      },
+      {
+       "w": "meses",
+       "at": 23
+      },
+      {
+       "w": "contraté",
+       "at": 35
+      },
+      {
+       "w": "fibra",
+       "at": 49
+      },
+      {
+       "w": "y",
+       "at": 58
+      },
+      {
+       "w": "móvil.",
+       "at": 60
+      },
+      {
+       "w": "El",
+       "at": 101
+      },
+      {
+       "w": "comercial",
+       "at": 109
+      },
+      {
+       "w": "me",
+       "at": 124
+      },
+      {
+       "w": "prometió",
+       "at": 127
+      },
+      {
+       "w": "lo",
+       "at": 140
+      },
+      {
+       "w": "que",
+       "at": 143
+      },
+      {
+       "w": "quería",
+       "at": 147
+      },
+      {
+       "w": "oír,",
+       "at": 158
+      },
+      {
+       "w": "y",
+       "at": 171
+      },
+      {
+       "w": "yo",
+       "at": 172
+      },
+      {
+       "w": "no",
+       "at": 177
+      },
+      {
+       "w": "apunté",
+       "at": 182
+      },
+      {
+       "w": "nada.",
+       "at": 193
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "promise",
+   "start": 371,
+   "dur": 263,
+   "cues": [
+    {
+     "id": "m1",
+     "who": "marta",
+     "at": 30,
+     "dur": 49,
+     "text": "¿Seguro que no hay permanencia?",
+     "words": [
+      {
+       "w": "¿Seguro",
+       "at": 30
+      },
+      {
+       "w": "que",
+       "at": 42
+      },
+      {
+       "w": "no",
+       "at": 46
+      },
+      {
+       "w": "hay",
+       "at": 50
+      },
+      {
+       "w": "permanencia?",
+       "at": 54
+      }
+     ]
+    },
+    {
+     "id": "a1",
+     "who": "jorge",
+     "at": 89,
+     "dur": 147,
+     "text": "Segurísimo. Sin permanencia y sin penalización. Te lo digo yo.",
+     "words": [
+      {
+       "w": "Segurísimo.",
+       "at": 89
+      },
+      {
+       "w": "Sin",
+       "at": 133
+      },
+      {
+       "w": "permanencia",
+       "at": 143
+      },
+      {
+       "w": "y",
+       "at": 159
+      },
+      {
+       "w": "sin",
+       "at": 160
+      },
+      {
+       "w": "penalización.",
+       "at": 165
+      },
+      {
+       "w": "Te",
+       "at": 212
+      },
+      {
+       "w": "lo",
+       "at": 217
+      },
+      {
+       "w": "digo",
+       "at": 220
+      },
+      {
+       "w": "yo.",
+       "at": 227
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "bill",
+   "start": 635,
+   "dur": 188,
+   "cues": [
+    {
+     "id": "n3",
+     "who": "narr",
+     "at": 9,
+     "dur": 149,
+     "text": "Esta semana me di de baja, y llegó la factura: 312 euros de penalización.",
+     "words": [
+      {
+       "w": "Esta",
+       "at": 9
+      },
+      {
+       "w": "semana",
+       "at": 17
+      },
+      {
+       "w": "me",
+       "at": 28
+      },
+      {
+       "w": "di",
+       "at": 31
+      },
+      {
+       "w": "de",
+       "at": 35
+      },
+      {
+       "w": "baja,",
+       "at": 38
+      },
+      {
+       "w": "y",
+       "at": 56
+      },
+      {
+       "w": "llegó",
+       "at": 58
+      },
+      {
+       "w": "la",
+       "at": 66
+      },
+      {
+       "w": "factura:",
+       "at": 69
+      },
+      {
+       "w": "312",
+       "at": 90
+      },
+      {
+       "w": "euros",
+       "at": 118
+      },
+      {
+       "w": "de",
+       "at": 128
+      },
+      {
+       "w": "penalización.",
+       "at": 131
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "complaint",
+   "start": 823,
+   "dur": 705,
+   "cues": [
+    {
+     "id": "m2",
+     "who": "marta",
+     "at": 72,
+     "dur": 172,
+     "text": "Buenas tardes. Me han cobrado una penalización, y me dijeron que no había permanencia.",
+     "words": [
+      {
+       "w": "Buenas",
+       "at": 72
+      },
+      {
+       "w": "tardes.",
+       "at": 81
+      },
+      {
+       "w": "Me",
+       "at": 126
+      },
+      {
+       "w": "han",
+       "at": 134
+      },
+      {
+       "w": "cobrado",
+       "at": 138
+      },
+      {
+       "w": "una",
+       "at": 150
+      },
+      {
+       "w": "penalización,",
+       "at": 155
+      },
+      {
+       "w": "y",
+       "at": 184
+      },
+      {
+       "w": "me",
+       "at": 186
+      },
+      {
+       "w": "dijeron",
+       "at": 189
+      },
+      {
+       "w": "que",
+       "at": 202
+      },
+      {
+       "w": "no",
+       "at": 205
+      },
+      {
+       "w": "había",
+       "at": 210
+      },
+      {
+       "w": "permanencia.",
+       "at": 218
+      }
+     ]
+    },
+    {
+     "id": "e1",
+     "who": "atn",
+     "at": 259,
+     "dur": 156,
+     "text": "No consta ninguna promesa. Su permanencia es de veinticuatro meses.",
+     "words": [
+      {
+       "w": "No",
+       "at": 259
+      },
+      {
+       "w": "consta",
+       "at": 264
+      },
+      {
+       "w": "ninguna",
+       "at": 278
+      },
+      {
+       "w": "promesa.",
+       "at": 290
+      },
+      {
+       "w": "Su",
+       "at": 336
+      },
+      {
+       "w": "permanencia",
+       "at": 342
+      },
+      {
+       "w": "es",
+       "at": 365
+      },
+      {
+       "w": "de",
+       "at": 369
+      },
+      {
+       "w": "veinticuatro",
+       "at": 372
+      },
+      {
+       "w": "meses.",
+       "at": 393
+      }
+     ]
+    },
+    {
+     "id": "m3",
+     "who": "marta",
+     "at": 433,
+     "dur": 49,
+     "text": "Eso no es lo que me dijeron.",
+     "words": [
+      {
+       "w": "Eso",
+       "at": 433
+      },
+      {
+       "w": "no",
+       "at": 440
+      },
+      {
+       "w": "es",
+       "at": 446
+      },
+      {
+       "w": "lo",
+       "at": 449
+      },
+      {
+       "w": "que",
+       "at": 453
+      },
+      {
+       "w": "me",
+       "at": 457
+      },
+      {
+       "w": "dijeron.",
+       "at": 460
+      }
+     ]
+    },
+    {
+     "id": "e2",
+     "who": "atn",
+     "at": 496,
+     "dur": 155,
+     "text": "Si no lo tiene por escrito, no podemos hacer nada. Que tenga un buen día.",
+     "words": [
+      {
+       "w": "Si",
+       "at": 496
+      },
+      {
+       "w": "no",
+       "at": 500
+      },
+      {
+       "w": "lo",
+       "at": 505
+      },
+      {
+       "w": "tiene",
+       "at": 508
+      },
+      {
+       "w": "por",
+       "at": 517
+      },
+      {
+       "w": "escrito,",
+       "at": 523
+      },
+      {
+       "w": "no",
+       "at": 546
+      },
+      {
+       "w": "podemos",
+       "at": 552
+      },
+      {
+       "w": "hacer",
+       "at": 565
+      },
+      {
+       "w": "nada.",
+       "at": 573
+      },
+      {
+       "w": "Que",
+       "at": 612
+      },
+      {
+       "w": "tenga",
+       "at": 615
+      },
+      {
+       "w": "un",
+       "at": 626
+      },
+      {
+       "w": "buen",
+       "at": 630
+      },
+      {
+       "w": "día.",
+       "at": 636
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "after",
+   "start": 1528,
+   "dur": 138,
+   "cues": [
+    {
+     "id": "n4",
+     "who": "narr",
+     "at": 12,
+     "dur": 111,
+     "text": "Mi palabra contra la suya. Hasta que me acordé.",
+     "words": [
+      {
+       "w": "Mi",
+       "at": 12
+      },
+      {
+       "w": "palabra",
+       "at": 16
+      },
+      {
+       "w": "contra",
+       "at": 28
+      },
+      {
+       "w": "la",
+       "at": 39
+      },
+      {
+       "w": "suya.",
+       "at": 42
+      },
+      {
+       "w": "Hasta",
+       "at": 85
+      },
+      {
+       "w": "que",
+       "at": 98
+      },
+      {
+       "w": "me",
+       "at": 102
+      },
+      {
+       "w": "acordé.",
+       "at": 105
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "search",
+   "start": 1667,
+   "dur": 161,
+   "cues": [
+    {
+     "id": "n5",
+     "who": "narr",
+     "at": 8,
+     "dur": 139,
+     "text": "Abrí Acta y busqué «permanencia». Ahí estaba, con su voz.",
+     "words": [
+      {
+       "w": "Abrí",
+       "at": 8
+      },
+      {
+       "w": "Acta",
+       "at": 17
+      },
+      {
+       "w": "y",
+       "at": 25
+      },
+      {
+       "w": "busqué",
+       "at": 27
+      },
+      {
+       "w": "«permanencia».",
+       "at": 43
+      },
+      {
+       "w": "Ahí",
+       "at": 94
+      },
+      {
+       "w": "estaba,",
+       "at": 104
+      },
+      {
+       "w": "con",
+       "at": 122
+      },
+      {
+       "w": "su",
+       "at": 129
+      },
+      {
+       "w": "voz.",
+       "at": 133
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "proof",
+   "start": 1828,
+   "dur": 145,
+   "cues": [
+    {
+     "id": "a3",
+     "who": "jorge",
+     "at": 18,
+     "dur": 100,
+     "text": "Sin permanencia y sin penalización. Te lo digo yo.",
+     "words": [
+      {
+       "w": "Sin",
+       "at": 18
+      },
+      {
+       "w": "permanencia",
+       "at": 25
+      },
+      {
+       "w": "y",
+       "at": 40
+      },
+      {
+       "w": "sin",
+       "at": 42
+      },
+      {
+       "w": "penalización.",
+       "at": 47
+      },
+      {
+       "w": "Te",
+       "at": 94
+      },
+      {
+       "w": "lo",
+       "at": 99
+      },
+      {
+       "w": "digo",
+       "at": 102
+      },
+      {
+       "w": "yo.",
+       "at": 108
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "win",
+   "start": 1973,
+   "dur": 220,
+   "cues": [
+    {
+     "id": "n6",
+     "who": "narr",
+     "at": 9,
+     "dur": 184,
+     "text": "Envié el audio con la reclamación. Dos días después, me devolvieron los 312 euros.",
+     "words": [
+      {
+       "w": "Envié",
+       "at": 9
+      },
+      {
+       "w": "el",
+       "at": 20
+      },
+      {
+       "w": "audio",
+       "at": 23
+      },
+      {
+       "w": "con",
+       "at": 33
+      },
+      {
+       "w": "la",
+       "at": 38
+      },
+      {
+       "w": "reclamación.",
+       "at": 41
+      },
+      {
+       "w": "Dos",
+       "at": 89
+      },
+      {
+       "w": "días",
+       "at": 99
+      },
+      {
+       "w": "después,",
+       "at": 107
+      },
+      {
+       "w": "me",
+       "at": 125
+      },
+      {
+       "w": "devolvieron",
+       "at": 129
+      },
+      {
+       "w": "los",
+       "at": 145
+      },
+      {
+       "w": "312",
+       "at": 149
+      },
+      {
+       "w": "euros.",
+       "at": 176
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "end",
+   "start": 2193,
+   "dur": 403,
+   "cues": [
+    {
+     "id": "n7",
+     "who": "narr",
+     "at": 9,
+     "dur": 286,
+     "text": "Si alguien te promete algo por teléfono, grábalo con Acta. Síguenos para más historias como esta, y comparte este vídeo con quien esté peleándose con su compañía.",
+     "words": [
+      {
+       "w": "Si",
+       "at": 9
+      },
+      {
+       "w": "alguien",
+       "at": 14
+      },
+      {
+       "w": "te",
+       "at": 23
+      },
+      {
+       "w": "promete",
+       "at": 26
+      },
+      {
+       "w": "algo",
+       "at": 39
+      },
+      {
+       "w": "por",
+       "at": 46
+      },
+      {
+       "w": "teléfono,",
+       "at": 52
+      },
+      {
+       "w": "grábalo",
+       "at": 71
+      },
+      {
+       "w": "con",
+       "at": 83
+      },
+      {
+       "w": "Acta.",
+       "at": 89
+      },
+      {
+       "w": "Síguenos",
+       "at": 127
+      },
+      {
+       "w": "para",
+       "at": 144
+      },
+      {
+       "w": "más",
+       "at": 149
+      },
+      {
+       "w": "historias",
+       "at": 156
+      },
+      {
+       "w": "como",
+       "at": 170
+      },
+      {
+       "w": "esta,",
+       "at": 179
+      },
+      {
+       "w": "y",
+       "at": 194
+      },
+      {
+       "w": "comparte",
+       "at": 196
+      },
+      {
+       "w": "este",
+       "at": 211
+      },
+      {
+       "w": "vídeo",
+       "at": 218
+      },
+      {
+       "w": "con",
+       "at": 228
+      },
+      {
+       "w": "quien",
+       "at": 233
+      },
+      {
+       "w": "esté",
+       "at": 239
+      },
+      {
+       "w": "peleándose",
+       "at": 246
+      },
+      {
+       "w": "con",
+       "at": 265
+      },
+      {
+       "w": "su",
+       "at": 271
+      },
+      {
+       "w": "compañía.",
+       "at": 274
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 2595,
+ "events": {
+  "n1": 3,
+  "ping1": 27,
+  "ping2": 51,
+  "ping3": 75,
+  "call1_start": 380,
+  "call1_end": 624,
+  "call2_start": 828,
+  "call2_pick": 879,
+  "call2_end": 1489,
+  "bill_total": 713,
+  "acorde": 1634,
+  "busque": 1693,
+  "ahi": 1760,
+  "devol": 2102,
+  "sigue": 2319,
+  "comparte": 2388
+ }
+}

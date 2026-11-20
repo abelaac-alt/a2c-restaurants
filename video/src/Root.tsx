@@ -13,6 +13,8 @@ import { TUTORIAL1_DURATION, Tutorial1 } from "./acta5/Part1";
 import { TutorialCover1, TutorialCover2 } from "./acta5/Covers";
 import { ACOSO_DURATION, AcosoReel } from "./acta6/Reel";
 import { AcosoCover } from "./acta6/Cover";
+import { GRATIS_DURATION, GratisReel } from "./acta7/Reel";
+import { GratisCover } from "./acta7/Cover";
 import { TUTORIAL2_DURATION, Tutorial2 } from "./acta5/Part2";
 
 export const RemotionRoot: React.FC = () => (
@@ -40,5 +42,7 @@ export const RemotionRoot: React.FC = () => (
     <Still id="TutorialCover2" component={TutorialCover2} width={1080} height={1920} defaultProps={{ guides: false }} />
     <Composition id="ActaAcoso" component={AcosoReel} durationInFrames={ACOSO_DURATION} fps={30} width={1080} height={1920} />
     <Still id="ActaAcosoCover" component={AcosoCover} width={1080} height={1920} defaultProps={{ guides: false }} />
+    <Composition id="ActaGratis" component={GratisReel} durationInFrames={GRATIS_DURATION} fps={30} width={1080} height={1920} />
+    <Still id="ActaGratisCover" component={GratisCover} width={1080} height={1920} defaultProps={{ guides: false }} />
   </>
 );

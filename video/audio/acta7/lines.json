@@ -1,0 +1,16 @@
+[
+ {"id":"n1","voice":"es-ES-XimenaNeural","rate":"+2%","pitch":"-1Hz","volume":"+0%","text":"Me han cobrado 312 euros por algo que me juraron que era gratis.","say":"Me han cobrado trescientos doce euros por algo que me juraron que era gratis."},
+ {"id":"n2","voice":"es-ES-XimenaNeural","rate":"+0%","pitch":"-1Hz","volume":"+0%","text":"Hace tres meses contraté fibra y móvil. El comercial me prometió lo que quería oír, y yo no apunté nada."},
+ {"id":"m1","voice":"es-ES-XimenaNeural","rate":"+0%","pitch":"+1Hz","volume":"-4%","text":"¿Seguro que no hay permanencia?"},
+ {"id":"a1","voice":"es-ES-AlvaroNeural","rate":"+12%","pitch":"+2Hz","volume":"+0%","text":"Segurísimo. Sin permanencia y sin penalización. Te lo digo yo."},
+ {"id":"n3","voice":"es-ES-XimenaNeural","rate":"+0%","pitch":"-2Hz","volume":"+0%","text":"Esta semana me di de baja, y llegó la factura: 312 euros de penalización.","say":"Esta semana me di de baja, y llegó la factura: trescientos doce euros de penalización."},
+ {"id":"m2","voice":"es-ES-XimenaNeural","rate":"-2%","pitch":"-1Hz","volume":"-4%","text":"Buenas tardes. Me han cobrado una penalización, y me dijeron que no había permanencia."},
+ {"id":"e1","voice":"es-ES-ElviraNeural","rate":"-4%","pitch":"-4Hz","volume":"+0%","text":"No consta ninguna promesa. Su permanencia es de veinticuatro meses."},
+ {"id":"m3","voice":"es-ES-XimenaNeural","rate":"-6%","pitch":"-3Hz","volume":"-6%","text":"Eso no es lo que me dijeron."},
+ {"id":"e2","voice":"es-ES-ElviraNeural","rate":"-2%","pitch":"-5Hz","volume":"+0%","text":"Si no lo tiene por escrito, no podemos hacer nada. Que tenga un buen día."},
+ {"id":"n4","voice":"es-ES-XimenaNeural","rate":"-4%","pitch":"-3Hz","volume":"+0%","text":"Mi palabra contra la suya. Hasta que me acordé."},
+ {"id":"n5","voice":"es-ES-XimenaNeural","rate":"+2%","pitch":"+0Hz","volume":"+0%","text":"Abrí Acta y busqué «permanencia». Ahí estaba, con su voz."},
+ {"id":"a3","voice":"es-ES-AlvaroNeural","rate":"+12%","pitch":"+2Hz","volume":"+0%","text":"Sin permanencia y sin penalización. Te lo digo yo."},
+ {"id":"n6","voice":"es-ES-XimenaNeural","rate":"+4%","pitch":"+1Hz","volume":"+0%","text":"Envié el audio con la reclamación. Dos días después, me devolvieron los 312 euros.","say":"Envié el audio con la reclamación. Dos días después, me devolvieron los trescientos doce euros."},
+ {"id":"n7","voice":"es-ES-XimenaNeural","rate":"+4%","pitch":"+1Hz","volume":"+0%","text":"Si alguien te promete algo por teléfono, grábalo con Acta. Síguenos para más historias como esta, y comparte este vídeo con quien esté peleándose con su compañía."}
+]
