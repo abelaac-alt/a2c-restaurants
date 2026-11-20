@@ -1,0 +1,1837 @@
+{
+ "fps": 30,
+ "bpm": 104,
+ "scenes": [
+  {
+   "name": "intro",
+   "start": 0,
+   "dur": 262,
+   "cues": [
+    {
+     "id": "i1",
+     "at": 6,
+     "dur": 245,
+     "text": "En cinco minutos puedes tener Acta instalada, grabando las dos voces de tus llamadas y resumiéndolas con inteligencia artificial gratis. Paso a paso.",
+     "words": [
+      {
+       "w": "En",
+       "at": 6
+      },
+      {
+       "w": "cinco",
+       "at": 10
+      },
+      {
+       "w": "minutos",
+       "at": 19
+      },
+      {
+       "w": "puedes",
+       "at": 31
+      },
+      {
+       "w": "tener",
+       "at": 40
+      },
+      {
+       "w": "Acta",
+       "at": 47
+      },
+      {
+       "w": "instalada,",
+       "at": 52
+      },
+      {
+       "w": "grabando",
+       "at": 74
+      },
+      {
+       "w": "las",
+       "at": 88
+      },
+      {
+       "w": "dos",
+       "at": 93
+      },
+      {
+       "w": "voces",
+       "at": 98
+      },
+      {
+       "w": "de",
+       "at": 107
+      },
+      {
+       "w": "tus",
+       "at": 110
+      },
+      {
+       "w": "llamadas",
+       "at": 115
+      },
+      {
+       "w": "y",
+       "at": 127
+      },
+      {
+       "w": "resumiéndolas",
+       "at": 129
+      },
+      {
+       "w": "con",
+       "at": 149
+      },
+      {
+       "w": "inteligencia",
+       "at": 154
+      },
+      {
+       "w": "artificial",
+       "at": 171
+      },
+      {
+       "w": "gratis.",
+       "at": 186
+      },
+      {
+       "w": "Paso",
+       "at": 225
+      },
+      {
+       "w": "a",
+       "at": 235
+      },
+      {
+       "w": "paso.",
+       "at": 237
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "download",
+   "start": 262,
+   "dur": 346,
+   "cues": [
+    {
+     "id": "d1",
+     "at": 4,
+     "dur": 239,
+     "text": "Paso uno: descarga. Abre mi canal de Telegram, t.me barra actaapp, busca el archivo APK de la última versión y pulsa descargar.",
+     "words": [
+      {
+       "w": "Paso",
+       "at": 4
+      },
+      {
+       "w": "uno:",
+       "at": 12
+      },
+      {
+       "w": "descarga.",
+       "at": 26
+      },
+      {
+       "w": "Abre",
+       "at": 67
+      },
+      {
+       "w": "mi",
+       "at": 76
+      },
+      {
+       "w": "canal",
+       "at": 79
+      },
+      {
+       "w": "de",
+       "at": 88
+      },
+      {
+       "w": "Telegram,",
+       "at": 91
+      },
+      {
+       "w": "t.me",
+       "at": 111
+      },
+      {
+       "w": "barra",
+       "at": 126
+      },
+      {
+       "w": "actaapp,",
+       "at": 133
+      },
+      {
+       "w": "busca",
+       "at": 152
+      },
+      {
+       "w": "el",
+       "at": 164
+      },
+      {
+       "w": "archivo",
+       "at": 167
+      },
+      {
+       "w": "APK",
+       "at": 179
+      },
+      {
+       "w": "de",
+       "at": 188
+      },
+      {
+       "w": "la",
+       "at": 191
+      },
+      {
+       "w": "última",
+       "at": 193
+      },
+      {
+       "w": "versión",
+       "at": 202
+      },
+      {
+       "w": "y",
+       "at": 214
+      },
+      {
+       "w": "pulsa",
+       "at": 216
+      },
+      {
+       "w": "descargar.",
+       "at": 225
+      }
+     ]
+    },
+    {
+     "id": "d2",
+     "at": 248,
+     "dur": 88,
+     "text": "Descárgala solo de ahí, nunca de enlaces de terceros.",
+     "words": [
+      {
+       "w": "Descárgala",
+       "at": 248
+      },
+      {
+       "w": "solo",
+       "at": 264
+      },
+      {
+       "w": "de",
+       "at": 272
+      },
+      {
+       "w": "ahí,",
+       "at": 275
+      },
+      {
+       "w": "nunca",
+       "at": 291
+      },
+      {
+       "w": "de",
+       "at": 299
+      },
+      {
+       "w": "enlaces",
+       "at": 302
+      },
+      {
+       "w": "de",
+       "at": 313
+      },
+      {
+       "w": "terceros.",
+       "at": 315
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "install",
+   "start": 608,
+   "dur": 406,
+   "cues": [
+    {
+     "id": "in1",
+     "at": 4,
+     "dur": 294,
+     "text": "Paso dos: instalar. Pulsa el archivo descargado. Android te pedirá permitir instalar apps desconocidas desde Telegram: actívalo, vuelve atrás y pulsa Instalar.",
+     "words": [
+      {
+       "w": "Paso",
+       "at": 4
+      },
+      {
+       "w": "dos:",
+       "at": 12
+      },
+      {
+       "w": "instalar.",
+       "at": 28
+      },
+      {
+       "w": "Pulsa",
+       "at": 68
+      },
+      {
+       "w": "el",
+       "at": 80
+      },
+      {
+       "w": "archivo",
+       "at": 82
+      },
+      {
+       "w": "descargado.",
+       "at": 93
+      },
+      {
+       "w": "Android",
+       "at": 137
+      },
+      {
+       "w": "te",
+       "at": 149
+      },
+      {
+       "w": "pedirá",
+       "at": 152
+      },
+      {
+       "w": "permitir",
+       "at": 162
+      },
+      {
+       "w": "instalar",
+       "at": 174
+      },
+      {
+       "w": "apps",
+       "at": 185
+      },
+      {
+       "w": "desconocidas",
+       "at": 190
+      },
+      {
+       "w": "desde",
+       "at": 209
+      },
+      {
+       "w": "Telegram:",
+       "at": 216
+      },
+      {
+       "w": "actívalo,",
+       "at": 234
+      },
+      {
+       "w": "vuelve",
+       "at": 256
+      },
+      {
+       "w": "atrás",
+       "at": 264
+      },
+      {
+       "w": "y",
+       "at": 273
+      },
+      {
+       "w": "pulsa",
+       "at": 275
+      },
+      {
+       "w": "Instalar.",
+       "at": 283
+      }
+     ]
+    },
+    {
+     "id": "in2",
+     "at": 303,
+     "dur": 76,
+     "text": "Si Play Protect te ofrece analizarla, déjale.",
+     "words": [
+      {
+       "w": "Si",
+       "at": 303
+      },
+      {
+       "w": "Play",
+       "at": 309
+      },
+      {
+       "w": "Protect",
+       "at": 315
+      },
+      {
+       "w": "te",
+       "at": 327
+      },
+      {
+       "w": "ofrece",
+       "at": 330
+      },
+      {
+       "w": "analizarla,",
+       "at": 339
+      },
+      {
+       "w": "déjale.",
+       "at": 363
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "perms",
+   "start": 1013,
+   "dur": 615,
+   "cues": [
+    {
+     "id": "p1",
+     "at": 4,
+     "dur": 283,
+     "text": "Paso tres: permisos. Abre Acta y sigue el asistente. Concede teléfono, contactos, registro de llamadas, micrófono y notificaciones.",
+     "words": [
+      {
+       "w": "Paso",
+       "at": 4
+      },
+      {
+       "w": "tres:",
+       "at": 12
+      },
+      {
+       "w": "permisos.",
+       "at": 30
+      },
+      {
+       "w": "Abre",
+       "at": 73
+      },
+      {
+       "w": "Acta",
+       "at": 83
+      },
+      {
+       "w": "y",
+       "at": 90
+      },
+      {
+       "w": "sigue",
+       "at": 92
+      },
+      {
+       "w": "el",
+       "at": 100
+      },
+      {
+       "w": "asistente.",
+       "at": 102
+      },
+      {
+       "w": "Concede",
+       "at": 146
+      },
+      {
+       "w": "teléfono,",
+       "at": 162
+      },
+      {
+       "w": "contactos,",
+       "at": 183
+      },
+      {
+       "w": "registro",
+       "at": 206
+      },
+      {
+       "w": "de",
+       "at": 221
+      },
+      {
+       "w": "llamadas,",
+       "at": 223
+      },
+      {
+       "w": "micrófono",
+       "at": 243
+      },
+      {
+       "w": "y",
+       "at": 258
+      },
+      {
+       "w": "notificaciones.",
+       "at": 259
+      }
+     ]
+    },
+    {
+     "id": "p2",
+     "at": 292,
+     "dur": 307,
+     "text": "Pulsa «Poner Acta como app de teléfono» y acepta: tiene que ser tu app de llamadas para poder grabar. Y en batería, elige «Sin restricciones», para que Android no corte la grabación.",
+     "words": [
+      {
+       "w": "Pulsa",
+       "at": 292
+      },
+      {
+       "w": "«Poner",
+       "at": 309
+      },
+      {
+       "w": "Acta",
+       "at": 316
+      },
+      {
+       "w": "como",
+       "at": 322
+      },
+      {
+       "w": "app",
+       "at": 329
+      },
+      {
+       "w": "de",
+       "at": 332
+      },
+      {
+       "w": "teléfono»",
+       "at": 335
+      },
+      {
+       "w": "y",
+       "at": 356
+      },
+      {
+       "w": "acepta:",
+       "at": 357
+      },
+      {
+       "w": "tiene",
+       "at": 377
+      },
+      {
+       "w": "que",
+       "at": 383
+      },
+      {
+       "w": "ser",
+       "at": 387
+      },
+      {
+       "w": "tu",
+       "at": 392
+      },
+      {
+       "w": "app",
+       "at": 396
+      },
+      {
+       "w": "de",
+       "at": 399
+      },
+      {
+       "w": "llamadas",
+       "at": 402
+      },
+      {
+       "w": "para",
+       "at": 413
+      },
+      {
+       "w": "poder",
+       "at": 419
+      },
+      {
+       "w": "grabar.",
+       "at": 427
+      },
+      {
+       "w": "Y",
+       "at": 464
+      },
+      {
+       "w": "en",
+       "at": 469
+      },
+      {
+       "w": "batería,",
+       "at": 471
+      },
+      {
+       "w": "elige",
+       "at": 493
+      },
+      {
+       "w": "«Sin",
+       "at": 513
+      },
+      {
+       "w": "restricciones»,",
+       "at": 519
+      },
+      {
+       "w": "para",
+       "at": 547
+      },
+      {
+       "w": "que",
+       "at": 552
+      },
+      {
+       "w": "Android",
+       "at": 557
+      },
+      {
+       "w": "no",
+       "at": 566
+      },
+      {
+       "w": "corte",
+       "at": 570
+      },
+      {
+       "w": "la",
+       "at": 578
+      },
+      {
+       "w": "grabación.",
+       "at": 580
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "adbintro",
+   "start": 1628,
+   "dur": 717,
+   "cues": [
+    {
+     "id": "a1",
+     "at": 4,
+     "dur": 280,
+     "text": "Paso cuatro: grabar las dos voces con el ADB propio de Acta. Android solo deja grabar a la otra persona a las apps del sistema, así que lo hacemos una vez, con un ordenador.",
+     "words": [
+      {
+       "w": "Paso",
+       "at": 4
+      },
+      {
+       "w": "cuatro:",
+       "at": 11
+      },
+      {
+       "w": "grabar",
+       "at": 30
+      },
+      {
+       "w": "las",
+       "at": 38
+      },
+      {
+       "w": "dos",
+       "at": 42
+      },
+      {
+       "w": "voces",
+       "at": 47
+      },
+      {
+       "w": "con",
+       "at": 58
+      },
+      {
+       "w": "el",
+       "at": 62
+      },
+      {
+       "w": "ADB",
+       "at": 65
+      },
+      {
+       "w": "propio",
+       "at": 73
+      },
+      {
+       "w": "de",
+       "at": 81
+      },
+      {
+       "w": "Acta.",
+       "at": 84
+      },
+      {
+       "w": "Android",
+       "at": 120
+      },
+      {
+       "w": "solo",
+       "at": 133
+      },
+      {
+       "w": "deja",
+       "at": 141
+      },
+      {
+       "w": "grabar",
+       "at": 148
+      },
+      {
+       "w": "a",
+       "at": 157
+      },
+      {
+       "w": "la",
+       "at": 158
+      },
+      {
+       "w": "otra",
+       "at": 161
+      },
+      {
+       "w": "persona",
+       "at": 167
+      },
+      {
+       "w": "a",
+       "at": 178
+      },
+      {
+       "w": "las",
+       "at": 180
+      },
+      {
+       "w": "apps",
+       "at": 186
+      },
+      {
+       "w": "del",
+       "at": 191
+      },
+      {
+       "w": "sistema,",
+       "at": 194
+      },
+      {
+       "w": "así",
+       "at": 214
+      },
+      {
+       "w": "que",
+       "at": 222
+      },
+      {
+       "w": "lo",
+       "at": 225
+      },
+      {
+       "w": "hacemos",
+       "at": 228
+      },
+      {
+       "w": "una",
+       "at": 239
+      },
+      {
+       "w": "vez,",
+       "at": 244
+      },
+      {
+       "w": "con",
+       "at": 259
+      },
+      {
+       "w": "un",
+       "at": 263
+      },
+      {
+       "w": "ordenador.",
+       "at": 266
+      }
+     ]
+    },
+    {
+     "id": "a2",
+     "at": 290,
+     "dur": 412,
+     "text": "En el móvil: Ajustes, Acerca del teléfono, y toca siete veces en «Versión de HyperOS» o «MIUI»; en otras marcas, en «Número de compilación». Luego, en Opciones de desarrollador, activa la depuración USB.",
+     "words": [
+      {
+       "w": "En",
+       "at": 290
+      },
+      {
+       "w": "el",
+       "at": 293
+      },
+      {
+       "w": "móvil:",
+       "at": 296
+      },
+      {
+       "w": "Ajustes,",
+       "at": 311
+      },
+      {
+       "w": "Acerca",
+       "at": 332
+      },
+      {
+       "w": "del",
+       "at": 343
+      },
+      {
+       "w": "teléfono,",
+       "at": 347
+      },
+      {
+       "w": "y",
+       "at": 371
+      },
+      {
+       "w": "toca",
+       "at": 372
+      },
+      {
+       "w": "siete",
+       "at": 379
+      },
+      {
+       "w": "veces",
+       "at": 388
+      },
+      {
+       "w": "en",
+       "at": 398
+      },
+      {
+       "w": "«Versión",
+       "at": 410
+      },
+      {
+       "w": "de",
+       "at": 420
+      },
+      {
+       "w": "HyperOS»",
+       "at": 423
+      },
+      {
+       "w": "o",
+       "at": 434
+      },
+      {
+       "w": "«MIUI»;",
+       "at": 437
+      },
+      {
+       "w": "en",
+       "at": 488
+      },
+      {
+       "w": "otras",
+       "at": 494
+      },
+      {
+       "w": "marcas,",
+       "at": 502
+      },
+      {
+       "w": "en",
+       "at": 522
+      },
+      {
+       "w": "«Número",
+       "at": 534
+      },
+      {
+       "w": "de",
+       "at": 543
+      },
+      {
+       "w": "compilación».",
+       "at": 545
+      },
+      {
+       "w": "Luego,",
+       "at": 591
+      },
+      {
+       "w": "en",
+       "at": 611
+      },
+      {
+       "w": "Opciones",
+       "at": 614
+      },
+      {
+       "w": "de",
+       "at": 627
+      },
+      {
+       "w": "desarrollador,",
+       "at": 629
+      },
+      {
+       "w": "activa",
+       "at": 655
+      },
+      {
+       "w": "la",
+       "at": 665
+      },
+      {
+       "w": "depuración",
+       "at": 668
+      },
+      {
+       "w": "USB.",
+       "at": 684
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "adbpc",
+   "start": 2345,
+   "dur": 748,
+   "cues": [
+    {
+     "id": "a3",
+     "at": 4,
+     "dur": 258,
+     "text": "En el ordenador, descarga las Platform Tools de Android, descomprímelas y abre la consola dentro de esa carpeta. Conecta el cable y acepta el aviso del móvil.",
+     "words": [
+      {
+       "w": "En",
+       "at": 4
+      },
+      {
+       "w": "el",
+       "at": 7
+      },
+      {
+       "w": "ordenador,",
+       "at": 10
+      },
+      {
+       "w": "descarga",
+       "at": 31
+      },
+      {
+       "w": "las",
+       "at": 42
+      },
+      {
+       "w": "Platform",
+       "at": 47
+      },
+      {
+       "w": "Tools",
+       "at": 62
+      },
+      {
+       "w": "de",
+       "at": 68
+      },
+      {
+       "w": "Android,",
+       "at": 71
+      },
+      {
+       "w": "descomprímelas",
+       "at": 88
+      },
+      {
+       "w": "y",
+       "at": 111
+      },
+      {
+       "w": "abre",
+       "at": 113
+      },
+      {
+       "w": "la",
+       "at": 118
+      },
+      {
+       "w": "consola",
+       "at": 121
+      },
+      {
+       "w": "dentro",
+       "at": 133
+      },
+      {
+       "w": "de",
+       "at": 142
+      },
+      {
+       "w": "esa",
+       "at": 146
+      },
+      {
+       "w": "carpeta.",
+       "at": 152
+      },
+      {
+       "w": "Conecta",
+       "at": 193
+      },
+      {
+       "w": "el",
+       "at": 207
+      },
+      {
+       "w": "cable",
+       "at": 209
+      },
+      {
+       "w": "y",
+       "at": 220
+      },
+      {
+       "w": "acepta",
+       "at": 222
+      },
+      {
+       "w": "el",
+       "at": 233
+      },
+      {
+       "w": "aviso",
+       "at": 235
+      },
+      {
+       "w": "del",
+       "at": 244
+      },
+      {
+       "w": "móvil.",
+       "at": 248
+      }
+     ]
+    },
+    {
+     "id": "a4",
+     "at": 269,
+     "dur": 464,
+     "text": "Escribe adb devices: debe salir tu móvil con la palabra device. Después, adb tcpip 5555: debe responder con un mensaje que empieza por restarting. En Windows, pon punto y barra invertida antes de adb; en Mac, punto y barra.",
+     "words": [
+      {
+       "w": "Escribe",
+       "at": 269
+      },
+      {
+       "w": "adb",
+       "at": 280
+      },
+      {
+       "w": "devices:",
+       "at": 287
+      },
+      {
+       "w": "debe",
+       "at": 308
+      },
+      {
+       "w": "salir",
+       "at": 315
+      },
+      {
+       "w": "tu",
+       "at": 323
+      },
+      {
+       "w": "móvil",
+       "at": 327
+      },
+      {
+       "w": "con",
+       "at": 336
+      },
+      {
+       "w": "la",
+       "at": 340
+      },
+      {
+       "w": "palabra",
+       "at": 343
+      },
+      {
+       "w": "device.",
+       "at": 353
+      },
+      {
+       "w": "Después,",
+       "at": 394
+      },
+      {
+       "w": "adb",
+       "at": 418
+      },
+      {
+       "w": "tcpip",
+       "at": 429
+      },
+      {
+       "w": "5555:",
+       "at": 449
+      },
+      {
+       "w": "debe",
+       "at": 494
+      },
+      {
+       "w": "responder",
+       "at": 503
+      },
+      {
+       "w": "con",
+       "at": 517
+      },
+      {
+       "w": "un",
+       "at": 521
+      },
+      {
+       "w": "mensaje",
+       "at": 524
+      },
+      {
+       "w": "que",
+       "at": 538
+      },
+      {
+       "w": "empieza",
+       "at": 541
+      },
+      {
+       "w": "por",
+       "at": 552
+      },
+      {
+       "w": "restarting.",
+       "at": 557
+      },
+      {
+       "w": "En",
+       "at": 599
+      },
+      {
+       "w": "Windows,",
+       "at": 606
+      },
+      {
+       "w": "pon",
+       "at": 625
+      },
+      {
+       "w": "punto",
+       "at": 632
+      },
+      {
+       "w": "y",
+       "at": 641
+      },
+      {
+       "w": "barra",
+       "at": 642
+      },
+      {
+       "w": "invertida",
+       "at": 650
+      },
+      {
+       "w": "antes",
+       "at": 664
+      },
+      {
+       "w": "de",
+       "at": 672
+      },
+      {
+       "w": "adb;",
+       "at": 674
+      },
+      {
+       "w": "en",
+       "at": 694
+      },
+      {
+       "w": "Mac,",
+       "at": 697
+      },
+      {
+       "w": "punto",
+       "at": 710
+      },
+      {
+       "w": "y",
+       "at": 718
+      },
+      {
+       "w": "barra.",
+       "at": 719
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "adbconnect",
+   "start": 3093,
+   "dur": 640,
+   "cues": [
+    {
+     "id": "a5",
+     "at": 4,
+     "dur": 431,
+     "text": "Vuelve a Acta, pulsa «Conectar grabación completa», acepta la autorización y marca «Permitir siempre». Acta graba cinco segundos y corta la conexión a mitad para comprobar que aguanta. Cuando diga «Todo correcto», ya puedes quitar el cable.",
+     "words": [
+      {
+       "w": "Vuelve",
+       "at": 4
+      },
+      {
+       "w": "a",
+       "at": 14
+      },
+      {
+       "w": "Acta,",
+       "at": 15
+      },
+      {
+       "w": "pulsa",
+       "at": 34
+      },
+      {
+       "w": "«Conectar",
+       "at": 52
+      },
+      {
+       "w": "grabación",
+       "at": 65
+      },
+      {
+       "w": "completa»,",
+       "at": 79
+      },
+      {
+       "w": "acepta",
+       "at": 102
+      },
+      {
+       "w": "la",
+       "at": 113
+      },
+      {
+       "w": "autorización",
+       "at": 116
+      },
+      {
+       "w": "y",
+       "at": 134
+      },
+      {
+       "w": "marca",
+       "at": 136
+      },
+      {
+       "w": "«Permitir",
+       "at": 152
+      },
+      {
+       "w": "siempre».",
+       "at": 165
+      },
+      {
+       "w": "Acta",
+       "at": 204
+      },
+      {
+       "w": "graba",
+       "at": 214
+      },
+      {
+       "w": "cinco",
+       "at": 222
+      },
+      {
+       "w": "segundos",
+       "at": 230
+      },
+      {
+       "w": "y",
+       "at": 244
+      },
+      {
+       "w": "corta",
+       "at": 246
+      },
+      {
+       "w": "la",
+       "at": 254
+      },
+      {
+       "w": "conexión",
+       "at": 257
+      },
+      {
+       "w": "a",
+       "at": 271
+      },
+      {
+       "w": "mitad",
+       "at": 272
+      },
+      {
+       "w": "para",
+       "at": 281
+      },
+      {
+       "w": "comprobar",
+       "at": 286
+      },
+      {
+       "w": "que",
+       "at": 299
+      },
+      {
+       "w": "aguanta.",
+       "at": 302
+      },
+      {
+       "w": "Cuando",
+       "at": 341
+      },
+      {
+       "w": "diga",
+       "at": 351
+      },
+      {
+       "w": "«Todo",
+       "at": 367
+      },
+      {
+       "w": "correcto»,",
+       "at": 374
+      },
+      {
+       "w": "ya",
+       "at": 396
+      },
+      {
+       "w": "puedes",
+       "at": 401
+      },
+      {
+       "w": "quitar",
+       "at": 410
+      },
+      {
+       "w": "el",
+       "at": 418
+      },
+      {
+       "w": "cable.",
+       "at": 421
+      }
+     ]
+    },
+    {
+     "id": "a6",
+     "at": 441,
+     "dur": 184,
+     "text": "Ojo: si reinicias el móvil, Android cierra el puerto, y repites los dos comandos. Es un minuto.",
+     "words": [
+      {
+       "w": "Ojo:",
+       "at": 441
+      },
+      {
+       "w": "si",
+       "at": 457
+      },
+      {
+       "w": "reinicias",
+       "at": 461
+      },
+      {
+       "w": "el",
+       "at": 476
+      },
+      {
+       "w": "móvil,",
+       "at": 479
+      },
+      {
+       "w": "Android",
+       "at": 496
+      },
+      {
+       "w": "cierra",
+       "at": 505
+      },
+      {
+       "w": "el",
+       "at": 513
+      },
+      {
+       "w": "puerto,",
+       "at": 515
+      },
+      {
+       "w": "y",
+       "at": 533
+      },
+      {
+       "w": "repites",
+       "at": 534
+      },
+      {
+       "w": "los",
+       "at": 547
+      },
+      {
+       "w": "dos",
+       "at": 552
+      },
+      {
+       "w": "comandos.",
+       "at": 557
+      },
+      {
+       "w": "Es",
+       "at": 598
+      },
+      {
+       "w": "un",
+       "at": 607
+      },
+      {
+       "w": "minuto.",
+       "at": 609
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "groqweb",
+   "start": 3733,
+   "dur": 359,
+   "cues": [
+    {
+     "id": "g1",
+     "at": 4,
+     "dur": 340,
+     "text": "Paso cinco: la inteligencia artificial gratis, con Groq. Entra en console.groq.com y crea una cuenta con Google o con tu correo. En «API Keys», pulsa «Create API Key».",
+     "words": [
+      {
+       "w": "Paso",
+       "at": 4
+      },
+      {
+       "w": "cinco:",
+       "at": 11
+      },
+      {
+       "w": "la",
+       "at": 29
+      },
+      {
+       "w": "inteligencia",
+       "at": 31
+      },
+      {
+       "w": "artificial",
+       "at": 49
+      },
+      {
+       "w": "gratis,",
+       "at": 64
+      },
+      {
+       "w": "con",
+       "at": 81
+      },
+      {
+       "w": "Groq.",
+       "at": 87
+      },
+      {
+       "w": "Entra",
+       "at": 119
+      },
+      {
+       "w": "en",
+       "at": 129
+      },
+      {
+       "w": "console.groq.com",
+       "at": 131
+      },
+      {
+       "w": "y",
+       "at": 171
+      },
+      {
+       "w": "crea",
+       "at": 173
+      },
+      {
+       "w": "una",
+       "at": 180
+      },
+      {
+       "w": "cuenta",
+       "at": 184
+      },
+      {
+       "w": "con",
+       "at": 193
+      },
+      {
+       "w": "Google",
+       "at": 199
+      },
+      {
+       "w": "o",
+       "at": 207
+      },
+      {
+       "w": "con",
+       "at": 208
+      },
+      {
+       "w": "tu",
+       "at": 213
+      },
+      {
+       "w": "correo.",
+       "at": 216
+      },
+      {
+       "w": "En",
+       "at": 254
+      },
+      {
+       "w": "«API",
+       "at": 268
+      },
+      {
+       "w": "Keys»,",
+       "at": 275
+      },
+      {
+       "w": "pulsa",
+       "at": 293
+      },
+      {
+       "w": "«Create",
+       "at": 313
+      },
+      {
+       "w": "API",
+       "at": 323
+      },
+      {
+       "w": "Key».",
+       "at": 330
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "groqapp",
+   "start": 4092,
+   "dur": 417,
+   "cues": [
+    {
+     "id": "g2",
+     "at": 4,
+     "dur": 397,
+     "text": "Copia la clave: empieza por «gsk» guion bajo, y Groq solo te la enseña una vez. En Acta, Ajustes, Clave de Groq: pégala y pulsa Guardar. Activa el análisis automático y tendrás resumen y tareas al colgar.",
+     "words": [
+      {
+       "w": "Copia",
+       "at": 4
+      },
+      {
+       "w": "la",
+       "at": 12
+      },
+      {
+       "w": "clave:",
+       "at": 15
+      },
+      {
+       "w": "empieza",
+       "at": 33
+      },
+      {
+       "w": "por",
+       "at": 44
+      },
+      {
+       "w": "«gsk»",
+       "at": 57
+      },
+      {
+       "w": "guion",
+       "at": 80
+      },
+      {
+       "w": "bajo,",
+       "at": 87
+      },
+      {
+       "w": "y",
+       "at": 105
+      },
+      {
+       "w": "Groq",
+       "at": 106
+      },
+      {
+       "w": "solo",
+       "at": 113
+      },
+      {
+       "w": "te",
+       "at": 120
+      },
+      {
+       "w": "la",
+       "at": 123
+      },
+      {
+       "w": "enseña",
+       "at": 125
+      },
+      {
+       "w": "una",
+       "at": 135
+      },
+      {
+       "w": "vez.",
+       "at": 140
+      },
+      {
+       "w": "En",
+       "at": 174
+      },
+      {
+       "w": "Acta,",
+       "at": 180
+      },
+      {
+       "w": "Ajustes,",
+       "at": 196
+      },
+      {
+       "w": "Clave",
+       "at": 220
+      },
+      {
+       "w": "de",
+       "at": 227
+      },
+      {
+       "w": "Groq:",
+       "at": 230
+      },
+      {
+       "w": "pégala",
+       "at": 243
+      },
+      {
+       "w": "y",
+       "at": 253
+      },
+      {
+       "w": "pulsa",
+       "at": 255
+      },
+      {
+       "w": "Guardar.",
+       "at": 264
+      },
+      {
+       "w": "Activa",
+       "at": 302
+      },
+      {
+       "w": "el",
+       "at": 316
+      },
+      {
+       "w": "análisis",
+       "at": 318
+      },
+      {
+       "w": "automático",
+       "at": 330
+      },
+      {
+       "w": "y",
+       "at": 348
+      },
+      {
+       "w": "tendrás",
+       "at": 350
+      },
+      {
+       "w": "resumen",
+       "at": 360
+      },
+      {
+       "w": "y",
+       "at": 372
+      },
+      {
+       "w": "tareas",
+       "at": 373
+      },
+      {
+       "w": "al",
+       "at": 384
+      },
+      {
+       "w": "colgar.",
+       "at": 387
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "end",
+   "start": 4509,
+   "dur": 283,
+   "cues": [
+    {
+     "id": "ee1",
+     "at": 8,
+     "dur": 209,
+     "text": "Y ya está. En la parte dos: por qué es segura y por qué es legal. El enlace, en mi canal de Telegram.",
+     "words": [
+      {
+       "w": "Y",
+       "at": 8
+      },
+      {
+       "w": "ya",
+       "at": 10
+      },
+      {
+       "w": "está.",
+       "at": 14
+      },
+      {
+       "w": "En",
+       "at": 50
+      },
+      {
+       "w": "la",
+       "at": 56
+      },
+      {
+       "w": "parte",
+       "at": 59
+      },
+      {
+       "w": "dos:",
+       "at": 67
+      },
+      {
+       "w": "por",
+       "at": 82
+      },
+      {
+       "w": "qué",
+       "at": 87
+      },
+      {
+       "w": "es",
+       "at": 90
+      },
+      {
+       "w": "segura",
+       "at": 94
+      },
+      {
+       "w": "y",
+       "at": 104
+      },
+      {
+       "w": "por",
+       "at": 106
+      },
+      {
+       "w": "qué",
+       "at": 112
+      },
+      {
+       "w": "es",
+       "at": 116
+      },
+      {
+       "w": "legal.",
+       "at": 120
+      },
+      {
+       "w": "El",
+       "at": 158
+      },
+      {
+       "w": "enlace,",
+       "at": 164
+      },
+      {
+       "w": "en",
+       "at": 183
+      },
+      {
+       "w": "mi",
+       "at": 185
+      },
+      {
+       "w": "canal",
+       "at": 188
+      },
+      {
+       "w": "de",
+       "at": 196
+      },
+      {
+       "w": "Telegram.",
+       "at": 199
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 4792
+}

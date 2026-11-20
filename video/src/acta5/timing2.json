@@ -1,0 +1,812 @@
+{
+ "fps": 30,
+ "bpm": 104,
+ "scenes": [
+  {
+   "name": "hook",
+   "start": 0,
+   "dur": 168,
+   "cues": [
+    {
+     "id": "h2",
+     "at": 3,
+     "dur": 154,
+     "text": "¿Es seguro que una app grabe tus llamadas? ¿Y es legal? Te lo explico.",
+     "words": [
+      {
+       "w": "¿Es",
+       "at": 3
+      },
+      {
+       "w": "seguro",
+       "at": 6
+      },
+      {
+       "w": "que",
+       "at": 17
+      },
+      {
+       "w": "una",
+       "at": 21
+      },
+      {
+       "w": "app",
+       "at": 26
+      },
+      {
+       "w": "grabe",
+       "at": 29
+      },
+      {
+       "w": "tus",
+       "at": 36
+      },
+      {
+       "w": "llamadas?",
+       "at": 41
+      },
+      {
+       "w": "¿Y",
+       "at": 81
+      },
+      {
+       "w": "es",
+       "at": 88
+      },
+      {
+       "w": "legal?",
+       "at": 92
+      },
+      {
+       "w": "Te",
+       "at": 131
+      },
+      {
+       "w": "lo",
+       "at": 136
+      },
+      {
+       "w": "explico.",
+       "at": 139
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "local",
+   "start": 168,
+   "dur": 226,
+   "cues": [
+    {
+     "id": "s1",
+     "at": 4,
+     "dur": 210,
+     "text": "¿Es segura? Las grabaciones se guardan solo en tu móvil, y el desarrollador no recibe tus audios, contactos ni llamadas.",
+     "words": [
+      {
+       "w": "¿Es",
+       "at": 4
+      },
+      {
+       "w": "segura?",
+       "at": 8
+      },
+      {
+       "w": "Las",
+       "at": 47
+      },
+      {
+       "w": "grabaciones",
+       "at": 55
+      },
+      {
+       "w": "se",
+       "at": 71
+      },
+      {
+       "w": "guardan",
+       "at": 74
+      },
+      {
+       "w": "solo",
+       "at": 85
+      },
+      {
+       "w": "en",
+       "at": 91
+      },
+      {
+       "w": "tu",
+       "at": 95
+      },
+      {
+       "w": "móvil,",
+       "at": 98
+      },
+      {
+       "w": "y",
+       "at": 114
+      },
+      {
+       "w": "el",
+       "at": 116
+      },
+      {
+       "w": "desarrollador",
+       "at": 119
+      },
+      {
+       "w": "no",
+       "at": 138
+      },
+      {
+       "w": "recibe",
+       "at": 141
+      },
+      {
+       "w": "tus",
+       "at": 152
+      },
+      {
+       "w": "audios,",
+       "at": 158
+      },
+      {
+       "w": "contactos",
+       "at": 177
+      },
+      {
+       "w": "ni",
+       "at": 193
+      },
+      {
+       "w": "llamadas.",
+       "at": 196
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "crypto",
+   "start": 394,
+   "dur": 312,
+   "cues": [
+    {
+     "id": "s2",
+     "at": 4,
+     "dur": 295,
+     "text": "Cada audio se cifra con AES-256 al colgar, con una clave protegida por el almacén seguro de Android: si alguien copia los archivos al ordenador, no podrá escucharlos.",
+     "words": [
+      {
+       "w": "Cada",
+       "at": 4
+      },
+      {
+       "w": "audio",
+       "at": 10
+      },
+      {
+       "w": "se",
+       "at": 18
+      },
+      {
+       "w": "cifra",
+       "at": 22
+      },
+      {
+       "w": "con",
+       "at": 33
+      },
+      {
+       "w": "AES-256",
+       "at": 39
+      },
+      {
+       "w": "al",
+       "at": 86
+      },
+      {
+       "w": "colgar,",
+       "at": 89
+      },
+      {
+       "w": "con",
+       "at": 108
+      },
+      {
+       "w": "una",
+       "at": 116
+      },
+      {
+       "w": "clave",
+       "at": 121
+      },
+      {
+       "w": "protegida",
+       "at": 129
+      },
+      {
+       "w": "por",
+       "at": 144
+      },
+      {
+       "w": "el",
+       "at": 149
+      },
+      {
+       "w": "almacén",
+       "at": 151
+      },
+      {
+       "w": "seguro",
+       "at": 163
+      },
+      {
+       "w": "de",
+       "at": 173
+      },
+      {
+       "w": "Android:",
+       "at": 176
+      },
+      {
+       "w": "si",
+       "at": 195
+      },
+      {
+       "w": "alguien",
+       "at": 199
+      },
+      {
+       "w": "copia",
+       "at": 207
+      },
+      {
+       "w": "los",
+       "at": 215
+      },
+      {
+       "w": "archivos",
+       "at": 220
+      },
+      {
+       "w": "al",
+       "at": 233
+      },
+      {
+       "w": "ordenador,",
+       "at": 236
+      },
+      {
+       "w": "no",
+       "at": 259
+      },
+      {
+       "w": "podrá",
+       "at": 267
+      },
+      {
+       "w": "escucharlos.",
+       "at": 274
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "lock",
+   "start": 706,
+   "dur": 265,
+   "cues": [
+    {
+     "id": "s3",
+     "at": 4,
+     "dur": 247,
+     "text": "Puedes bloquear las grabaciones con tu huella o tu PIN, y sin capturas de pantalla. Lo único que sale del móvil es el audio de la llamada que analizas con Groq.",
+     "words": [
+      {
+       "w": "Puedes",
+       "at": 4
+      },
+      {
+       "w": "bloquear",
+       "at": 11
+      },
+      {
+       "w": "las",
+       "at": 23
+      },
+      {
+       "w": "grabaciones",
+       "at": 27
+      },
+      {
+       "w": "con",
+       "at": 44
+      },
+      {
+       "w": "tu",
+       "at": 50
+      },
+      {
+       "w": "huella",
+       "at": 53
+      },
+      {
+       "w": "o",
+       "at": 61
+      },
+      {
+       "w": "tu",
+       "at": 63
+      },
+      {
+       "w": "PIN,",
+       "at": 67
+      },
+      {
+       "w": "y",
+       "at": 82
+      },
+      {
+       "w": "sin",
+       "at": 84
+      },
+      {
+       "w": "capturas",
+       "at": 89
+      },
+      {
+       "w": "de",
+       "at": 102
+      },
+      {
+       "w": "pantalla.",
+       "at": 104
+      },
+      {
+       "w": "Lo",
+       "at": 145
+      },
+      {
+       "w": "único",
+       "at": 154
+      },
+      {
+       "w": "que",
+       "at": 162
+      },
+      {
+       "w": "sale",
+       "at": 166
+      },
+      {
+       "w": "del",
+       "at": 174
+      },
+      {
+       "w": "móvil",
+       "at": 178
+      },
+      {
+       "w": "es",
+       "at": 187
+      },
+      {
+       "w": "el",
+       "at": 191
+      },
+      {
+       "w": "audio",
+       "at": 194
+      },
+      {
+       "w": "de",
+       "at": 202
+      },
+      {
+       "w": "la",
+       "at": 204
+      },
+      {
+       "w": "llamada",
+       "at": 207
+      },
+      {
+       "w": "que",
+       "at": 218
+      },
+      {
+       "w": "analizas",
+       "at": 222
+      },
+      {
+       "w": "con",
+       "at": 235
+      },
+      {
+       "w": "Groq.",
+       "at": 240
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "legal1",
+   "start": 971,
+   "dur": 267,
+   "cues": [
+    {
+     "id": "l1",
+     "at": 4,
+     "dur": 251,
+     "text": "¿Y es legal? Acta es una herramienta legal. En España, grabar una llamada en la que participas es legal y puede servir como prueba.",
+     "words": [
+      {
+       "w": "¿Y",
+       "at": 4
+      },
+      {
+       "w": "es",
+       "at": 8
+      },
+      {
+       "w": "legal?",
+       "at": 12
+      },
+      {
+       "w": "Acta",
+       "at": 51
+      },
+      {
+       "w": "es",
+       "at": 63
+      },
+      {
+       "w": "una",
+       "at": 67
+      },
+      {
+       "w": "herramienta",
+       "at": 71
+      },
+      {
+       "w": "legal.",
+       "at": 85
+      },
+      {
+       "w": "En",
+       "at": 125
+      },
+      {
+       "w": "España,",
+       "at": 131
+      },
+      {
+       "w": "grabar",
+       "at": 151
+      },
+      {
+       "w": "una",
+       "at": 160
+      },
+      {
+       "w": "llamada",
+       "at": 164
+      },
+      {
+       "w": "en",
+       "at": 175
+      },
+      {
+       "w": "la",
+       "at": 177
+      },
+      {
+       "w": "que",
+       "at": 180
+      },
+      {
+       "w": "participas",
+       "at": 183
+      },
+      {
+       "w": "es",
+       "at": 200
+      },
+      {
+       "w": "legal",
+       "at": 203
+      },
+      {
+       "w": "y",
+       "at": 213
+      },
+      {
+       "w": "puede",
+       "at": 215
+      },
+      {
+       "w": "servir",
+       "at": 223
+      },
+      {
+       "w": "como",
+       "at": 234
+      },
+      {
+       "w": "prueba.",
+       "at": 240
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "legal2",
+   "start": 1239,
+   "dur": 432,
+   "cues": [
+    {
+     "id": "l2",
+     "at": 4,
+     "dur": 313,
+     "text": "Lo que no se puede es grabar conversaciones ajenas ni difundir una grabación sin permiso: eso puede ser delito. El uso es siempre responsabilidad tuya, y esto no es asesoramiento jurídico.",
+     "words": [
+      {
+       "w": "Lo",
+       "at": 4
+      },
+      {
+       "w": "que",
+       "at": 8
+      },
+      {
+       "w": "no",
+       "at": 11
+      },
+      {
+       "w": "se",
+       "at": 14
+      },
+      {
+       "w": "puede",
+       "at": 18
+      },
+      {
+       "w": "es",
+       "at": 26
+      },
+      {
+       "w": "grabar",
+       "at": 29
+      },
+      {
+       "w": "conversaciones",
+       "at": 38
+      },
+      {
+       "w": "ajenas",
+       "at": 60
+      },
+      {
+       "w": "ni",
+       "at": 72
+      },
+      {
+       "w": "difundir",
+       "at": 76
+      },
+      {
+       "w": "una",
+       "at": 89
+      },
+      {
+       "w": "grabación",
+       "at": 92
+      },
+      {
+       "w": "sin",
+       "at": 106
+      },
+      {
+       "w": "permiso:",
+       "at": 111
+      },
+      {
+       "w": "eso",
+       "at": 132
+      },
+      {
+       "w": "puede",
+       "at": 139
+      },
+      {
+       "w": "ser",
+       "at": 147
+      },
+      {
+       "w": "delito.",
+       "at": 153
+      },
+      {
+       "w": "El",
+       "at": 192
+      },
+      {
+       "w": "uso",
+       "at": 199
+      },
+      {
+       "w": "es",
+       "at": 206
+      },
+      {
+       "w": "siempre",
+       "at": 209
+      },
+      {
+       "w": "responsabilidad",
+       "at": 218
+      },
+      {
+       "w": "tuya,",
+       "at": 242
+      },
+      {
+       "w": "y",
+       "at": 260
+      },
+      {
+       "w": "esto",
+       "at": 262
+      },
+      {
+       "w": "no",
+       "at": 270
+      },
+      {
+       "w": "es",
+       "at": 275
+      },
+      {
+       "w": "asesoramiento",
+       "at": 278
+      },
+      {
+       "w": "jurídico.",
+       "at": 298
+      }
+     ]
+    },
+    {
+     "id": "l3",
+     "at": 324,
+     "dur": 91,
+     "text": "Y ante una emergencia, usa la app de teléfono original.",
+     "words": [
+      {
+       "w": "Y",
+       "at": 324
+      },
+      {
+       "w": "ante",
+       "at": 326
+      },
+      {
+       "w": "una",
+       "at": 332
+      },
+      {
+       "w": "emergencia,",
+       "at": 338
+      },
+      {
+       "w": "usa",
+       "at": 366
+      },
+      {
+       "w": "la",
+       "at": 371
+      },
+      {
+       "w": "app",
+       "at": 375
+      },
+      {
+       "w": "de",
+       "at": 378
+      },
+      {
+       "w": "teléfono",
+       "at": 381
+      },
+      {
+       "w": "original.",
+       "at": 394
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "end",
+   "start": 1671,
+   "dur": 271,
+   "cues": [
+    {
+     "id": "e1",
+     "at": 8,
+     "dur": 191,
+     "text": "Descarga Acta en mi canal de Telegram, t.me barra actaapp. Acta: tus llamadas, con memoria.",
+     "words": [
+      {
+       "w": "Descarga",
+       "at": 8
+      },
+      {
+       "w": "Acta",
+       "at": 20
+      },
+      {
+       "w": "en",
+       "at": 27
+      },
+      {
+       "w": "mi",
+       "at": 30
+      },
+      {
+       "w": "canal",
+       "at": 32
+      },
+      {
+       "w": "de",
+       "at": 41
+      },
+      {
+       "w": "Telegram,",
+       "at": 44
+      },
+      {
+       "w": "t.me",
+       "at": 65
+      },
+      {
+       "w": "barra",
+       "at": 81
+      },
+      {
+       "w": "actaapp.",
+       "at": 88
+      },
+      {
+       "w": "Acta:",
+       "at": 128
+      },
+      {
+       "w": "tus",
+       "at": 150
+      },
+      {
+       "w": "llamadas,",
+       "at": 155
+      },
+      {
+       "w": "con",
+       "at": 177
+      },
+      {
+       "w": "memoria.",
+       "at": 182
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 1942
+}

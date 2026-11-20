@@ -1,0 +1,128 @@
+[
+ {
+  "id": "ef_dora_a1",
+  "text": "¿Cuántas veces has colgado y ya no recordabas qué habíais acordado?",
+  "voice": "ef_dora",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "ef_dora_a2",
+  "text": "Con Acta, eso se acabó.",
+  "voice": "ef_dora",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "ef_dora_a3",
+  "text": "Acta graba tus llamadas automáticamente, con las dos voces.",
+  "voice": "ef_dora",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "ef_dora_a4",
+  "text": "Al colgar, la inteligencia artificial te da un resumen y las tareas que acordasteis.",
+  "voice": "ef_dora",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "ef_dora_a5",
+  "text": "Y las añades a tu calendario con un toque.",
+  "voice": "ef_dora",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "ef_dora_a6",
+  "text": "¿Qué presupuesto dijo? Busca cualquier palabra y salta al momento exacto.",
+  "voice": "ef_dora",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "ef_dora_a7",
+  "text": "Cuando vuelva a llamarte, Acta te recuerda de qué hablasteis la última vez.",
+  "voice": "ef_dora",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "ef_dora_a8",
+  "text": "Y tus grabaciones se quedan en tu móvil, cifradas y protegidas con tu huella.",
+  "voice": "ef_dora",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "ef_dora_a9",
+  "text": "Acta. Tus llamadas, por fin con memoria.",
+  "voice": "ef_dora",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "em_alex_a1",
+  "text": "¿Cuántas veces has colgado y ya no recordabas qué habíais acordado?",
+  "voice": "em_alex",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "em_alex_a2",
+  "text": "Con Acta, eso se acabó.",
+  "voice": "em_alex",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "em_alex_a3",
+  "text": "Acta graba tus llamadas automáticamente, con las dos voces.",
+  "voice": "em_alex",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "em_alex_a4",
+  "text": "Al colgar, la inteligencia artificial te da un resumen y las tareas que acordasteis.",
+  "voice": "em_alex",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "em_alex_a5",
+  "text": "Y las añades a tu calendario con un toque.",
+  "voice": "em_alex",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "em_alex_a6",
+  "text": "¿Qué presupuesto dijo? Busca cualquier palabra y salta al momento exacto.",
+  "voice": "em_alex",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "em_alex_a7",
+  "text": "Cuando vuelva a llamarte, Acta te recuerda de qué hablasteis la última vez.",
+  "voice": "em_alex",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "em_alex_a8",
+  "text": "Y tus grabaciones se quedan en tu móvil, cifradas y protegidas con tu huella.",
+  "voice": "em_alex",
+  "lang": "es",
+  "speed": 1.12
+ },
+ {
+  "id": "em_alex_a9",
+  "text": "Acta. Tus llamadas, por fin con memoria.",
+  "voice": "em_alex",
+  "lang": "es",
+  "speed": 1.12
+ }
+]

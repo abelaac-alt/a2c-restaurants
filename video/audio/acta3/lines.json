@@ -1,0 +1,15 @@
+[
+ {"id":"n1","voice":"es-ES-ElviraNeural","rate":"+8%","text":"Mi casero intentó quedarse con mis mil doscientos euros de fianza."},
+ {"id":"n2","voice":"es-ES-ElviraNeural","rate":"+4%","text":"Y lo que pasó después, no se lo esperaba."},
+ {"id":"n3","voice":"es-ES-ElviraNeural","rate":"+8%","text":"Hace un año le llamé para pedirle permiso para pintar el salón."},
+ {"id":"n4","voice":"es-ES-ElviraNeural","rate":"+8%","text":"Me dijo que sí, sin problema."},
+ {"id":"n5","voice":"es-ES-ElviraNeural","rate":"+8%","text":"Un año después, me voy del piso, y me suelta esto:"},
+ {"id":"l1","voice":"es-ES-AlvaroNeural","rate":"+6%","pitch":"-6Hz","text":"¿Pintar? Yo nunca te di permiso. La fianza me la quedo."},
+ {"id":"n6","voice":"es-ES-ElviraNeural","rate":"+6%","text":"Mil doscientos euros. Sin pruebas. Su palabra contra la mía."},
+ {"id":"n7","voice":"es-ES-ElviraNeural","rate":"+4%","text":"Pero yo grabo todas mis llamadas con Acta."},
+ {"id":"n8","voice":"es-ES-ElviraNeural","rate":"+8%","text":"Busco «pintar», y ahí está: catorce de marzo, minuto uno cuarenta y dos."},
+ {"id":"l2","voice":"es-ES-AlvaroNeural","rate":"+4%","pitch":"-6Hz","text":"Sí, mujer, pinta el salón del color que quieras. Sin problema."},
+ {"id":"n9","voice":"es-ES-ElviraNeural","rate":"+8%","text":"Se lo mando. Dos horas después: fianza devuelta. Entera."},
+ {"id":"n10","voice":"es-ES-ElviraNeural","rate":"+10%","text":"Acta graba tus llamadas, las transcribe, y su inteligencia artificial te resume lo que se acordó."},
+ {"id":"n11","voice":"es-ES-ElviraNeural","rate":"+2%","text":"Las palabras se las lleva el viento. Las tuyas, ya no."}
+]

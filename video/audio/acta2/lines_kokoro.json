@@ -1,0 +1,72 @@
+[
+ {
+  "id": "h1",
+  "voice": "em_alex",
+  "text": "Me dijeron por teléfono que la instalación era gratis.",
+  "speed": 1.12,
+  "lang": "es"
+ },
+ {
+  "id": "h2",
+  "voice": "em_alex",
+  "text": "Un mes después, me llega esto.",
+  "speed": 1.12,
+  "lang": "es"
+ },
+ {
+  "id": "h3",
+  "voice": "em_alex",
+  "text": "Llamo, y me dicen que ellos nunca dijeron eso.",
+  "speed": 1.12,
+  "lang": "es"
+ },
+ {
+  "id": "h4",
+  "voice": "em_alex",
+  "text": "Pero yo tengo Acta.",
+  "speed": 1.12,
+  "lang": "es"
+ },
+ {
+  "id": "h5",
+  "voice": "em_alex",
+  "text": "Busco «gratis» en mis llamadas...",
+  "speed": 1.12,
+  "lang": "es"
+ },
+ {
+  "id": "h6",
+  "voice": "em_alex",
+  "text": "y ahí está. Doce de marzo, minuto tres veintisiete.",
+  "speed": 1.12,
+  "lang": "es"
+ },
+ {
+  "id": "h7",
+  "voice": "ef_dora",
+  "speed": 1.0,
+  "text": "La instalación es totalmente gratis, no tendrá que pagar nada.",
+  "lang": "es"
+ },
+ {
+  "id": "h8",
+  "voice": "em_alex",
+  "text": "Les doy el día, la hora y el minuto exacto. Me anulan el cargo.",
+  "speed": 1.12,
+  "lang": "es"
+ },
+ {
+  "id": "h9",
+  "voice": "em_alex",
+  "text": "Acta graba tus llamadas, las transcribe y te resume lo que se acordó.",
+  "speed": 1.12,
+  "lang": "es"
+ },
+ {
+  "id": "h10",
+  "voice": "em_alex",
+  "text": "Que no te la cuelen. Acta: tus llamadas, con memoria.",
+  "speed": 1.12,
+  "lang": "es"
+ }
+]
